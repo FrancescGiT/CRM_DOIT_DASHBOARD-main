@@ -337,16 +337,11 @@ function refreshAll() {
   buildIndexes();
   fillFiltersOnce();
 
-  // Dynamic Search Redirection
-  const f = filterContext();
-  if (f.q && currentPage !== 'search-results') {
-    switchPage('search-results');
-  } else if (!f.q && currentPage === 'search-results') {
-    switchPage(lastNonSearchPage || 'overview');
-  }
-
   // Update filter banner
   updateFilterBanner();
+  
+  // Update topbar filter indicators
+  updateFilterIndicator();
 
   // Navigation badges
   document.getElementById('navClientsCount').textContent = (data.clients || []).length;
@@ -385,6 +380,156 @@ function updateFilterBanner() {
     resetBtn.style.borderColor = '';
   }
 }
+
+function updateFilterIndicator() {
+  const container = document.getElementById('topbarFilterIndicator');
+  if (!container) return;
+  
+  container.innerHTML = '';
+  const activePills = [];
+  
+  // 1. Search Query
+  const searchInput = document.getElementById('searchInput');
+  if (searchInput && searchInput.value.trim()) {
+    const q = searchInput.value.trim();
+    activePills.push(`<div class="filter-pill">
+      <span>🔍 Búsqueda: "${esc(q)}"</span>
+      <span class="filter-pill-close" onclick="clearSearchFilter()">&times;</span>
+    </div>`);
+  }
+
+  // 2. Client
+  if (selectedClientId) {
+    const c = idx.clientsById[selectedClientId];
+    if (c) {
+      activePills.push(`<div class="filter-pill">
+        <span>👥 Cliente: ${esc(c.name)}</span>
+        <span class="filter-pill-close" onclick="clearClientFilter()">&times;</span>
+      </div>`);
+    }
+  }
+  
+  // 3. Center
+  if (selectedCenterId) {
+    const ct = idx.centersById[selectedCenterId];
+    if (ct) {
+      activePills.push(`<div class="filter-pill">
+        <span>📍 Sede: ${esc(ct.name)}</span>
+        <span class="filter-pill-close" onclick="clearCenterFilter()">&times;</span>
+      </div>`);
+    }
+  }
+  
+  // 4. Epic
+  if (selectedEpicKey) {
+    activePills.push(`<div class="filter-pill">
+      <span>📋 Pedido: ${esc(selectedEpicKey)}</span>
+      <span class="filter-pill-close" onclick="clearEpicFilter()">&times;</span>
+    </div>`);
+  }
+  
+  // 5. Product
+  if (selectedProductId) {
+    const p = idx.productSales[selectedProductId];
+    const display = p ? p.name : selectedProductId;
+    activePills.push(`<div class="filter-pill">
+      <span>📦 Prod: ${esc(display)}</span>
+      <span class="filter-pill-close" onclick="clearProductFilter()">&times;</span>
+    </div>`);
+  }
+
+  // 6. Type Filter
+  const typeF = document.getElementById('typeFilter')?.value;
+  if (typeF) {
+    activePills.push(`<div class="filter-pill">
+      <span>🏷️ Tipo: ${esc(typeF)}</span>
+      <span class="filter-pill-close" onclick="clearFilterDropdown('typeFilter')">&times;</span>
+    </div>`);
+  }
+
+  // 7. Status Filter
+  const statusF = document.getElementById('statusFilter')?.value;
+  if (statusF) {
+    activePills.push(`<div class="filter-pill">
+      <span>⚡ Estado: ${esc(statusF)}</span>
+      <span class="filter-pill-close" onclick="clearFilterDropdown('statusFilter')">&times;</span>
+    </div>`);
+  }
+
+  // 8. Year Filter
+  const yearF = document.getElementById('yearFilter')?.value;
+  if (yearF) {
+    activePills.push(`<div class="filter-pill">
+      <span>📅 Año: ${esc(yearF)}</span>
+      <span class="filter-pill-close" onclick="clearFilterDropdown('yearFilter')">&times;</span>
+    </div>`);
+  }
+
+  // 9. Center Filter
+  const centerF = document.getElementById('centerFilter')?.value;
+  if (centerF) {
+    const ct = idx.centersById[centerF];
+    const name = ct ? ct.name : centerF;
+    activePills.push(`<div class="filter-pill">
+      <span>🏢 Sede: ${esc(name)}</span>
+      <span class="filter-pill-close" onclick="clearFilterDropdown('centerFilter')">&times;</span>
+    </div>`);
+  }
+  
+  if (activePills.length > 0) {
+    container.innerHTML = activePills.join('');
+    container.style.display = 'flex';
+  } else {
+    container.style.display = 'none';
+  }
+}
+
+function clearSearchFilter() {
+  const searchInput = document.getElementById('searchInput');
+  if (searchInput) searchInput.value = '';
+  if (currentPage === 'search-results') {
+    switchPage(lastNonSearchPage || 'overview');
+  }
+  refreshAll();
+}
+
+function clearClientFilter() {
+  selectedClientId = '';
+  selectedCenterId = '';
+  selectedEpicKey = '';
+  refreshAll();
+}
+
+function clearCenterFilter() {
+  selectedCenterId = '';
+  refreshAll();
+}
+
+function clearEpicFilter() {
+  selectedEpicKey = '';
+  refreshAll();
+}
+
+function clearProductFilter() {
+  selectedProductId = '';
+  const prodSearchInput = document.getElementById('productSearchInput');
+  if (prodSearchInput) prodSearchInput.value = '';
+  refreshAll();
+}
+
+function clearFilterDropdown(id) {
+  const el = document.getElementById(id);
+  if (el) el.value = '';
+  refreshAll();
+}
+
+// Bind to window to ensure global click availability
+window.clearSearchFilter = clearSearchFilter;
+window.clearClientFilter = clearClientFilter;
+window.clearCenterFilter = clearCenterFilter;
+window.clearEpicFilter = clearEpicFilter;
+window.clearProductFilter = clearProductFilter;
+window.clearFilterDropdown = clearFilterDropdown;
 
 function fillFiltersOnce() {
   const typeSel = document.getElementById('typeFilter'); if (typeSel.dataset.done !== '1') { for (const t of idx.types) { const o = document.createElement('option'); o.value = t; o.textContent = t; typeSel.appendChild(o); } typeSel.dataset.done = '1'; }
@@ -442,9 +587,37 @@ function renderStats() {
       else if (a.line_kind === 'Servicio') services += parseInt(a.quantity || 1) || 1;
     }
   }
+
+  // Count active clients only (where active !== false)
+  const activeClientCount = Array.from(clientIds).filter(cid => idx.clientsById[cid]?.active !== false).length;
+
   document.getElementById('stats').innerHTML = [
-    ['Clientes Activos', clientIds.size], ['Centros/Sedes', centerIds.size], ['Pedidos / COM', epics.length], ['En Curso', active], ['Productos', products], ['Servicios', services]
-  ].map(([l, n]) => `<div class="stat-card"><div class="stat-value">${n}</div><div class="stat-label">${l}</div></div>`).join('');
+    ['Clientes Activos', activeClientCount, 'clients'],
+    ['Centros/Sedes', centerIds.size, 'centers'],
+    ['Pedidos / COM', epics.length, 'epics'],
+    ['En Curso', active, 'en-curso'],
+    ['Productos', products, 'products'],
+    ['Servicios', services, 'services']
+  ].map(([l, n, go]) => `<div class="stat-card clickable" data-stat-go="${go}"><div class="stat-value">${n}</div><div class="stat-label">${l}</div></div>`).join('');
+
+  document.querySelectorAll('[data-stat-go]').forEach(el => {
+    el.onclick = () => {
+      const go = el.dataset.statGo;
+      if (go === 'clients' || go === 'centers') {
+        switchPage('clients');
+      } else if (go === 'epics') {
+        switchPage('epics');
+      } else if (go === 'en-curso') {
+        document.getElementById('statusFilter').value = 'Activa';
+        switchPage('epics');
+      } else if (go === 'products') {
+        switchPage('products');
+      } else if (go === 'services') {
+        switchPage('epics');
+      }
+      refreshAll();
+    };
+  });
 }
 
 function clientMatches(c, f) {
@@ -462,8 +635,9 @@ function renderClients() {
   const clients = (data.clients || []).filter(c => clientMatches(c, f)).sort((a, b) => (b.stats?.epics || 0) - (a.stats?.epics || 0) || a.name.localeCompare(b.name, 'es'));
   document.getElementById('clientList').innerHTML = clients.map(c => {
     const st = c.stats || {};
-    return `<div class="client-card ${c.id === selectedClientId ? 'active' : ''}" data-client="${esc(c.id)}">
-      <div class="client-name">${esc(c.name)}</div>
+    const isActive = c.active !== false;
+    return `<div class="client-card ${c.id === selectedClientId ? 'active' : ''} ${!isActive ? 'client-inactive' : ''}" data-client="${esc(c.id)}">
+      <div class="client-name">${esc(c.name)} ${!isActive ? '<span class="tag tag-default" style="font-size:9px;padding:1px 5px;margin-left:5px;">Inactivo</span>' : ''}</div>
       <div class="client-meta">
         <span class="tag tag-blue">${esc(c.type || 'Sin tipo')}</span>
         <span class="tag tag-default">${st.epics || 0} Pedidos</span>
@@ -494,6 +668,10 @@ function renderClientPanel() {
   panel.innerHTML = `<div class="contact-grid">
     <div class="field"><label>Nombre cliente CRM</label><input id="cl_name" value="${esc(c.name)}"></div>
     <div class="field"><label>Tipo cliente</label><select id="cl_type">${types.map(o => `<option value="${esc(o)}" ${o === c.type ? 'selected' : ''}>${esc(o || '-- No asignado --')}</option>`).join('')}</select></div>
+    <div class="field" style="display:flex; align-items:center; gap:8px; height:100%; padding-top:14px;">
+      <input type="checkbox" id="cl_active" ${c.active !== false ? 'checked' : ''} style="width:auto; cursor:pointer; margin:0;">
+      <label for="cl_active" style="margin:0; cursor:pointer; user-select:none; font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; color:var(--text3);">Cliente Activo</label>
+    </div>
     <div class="field"><label>Persona contacto</label><input id="cl_contact" value="${esc(contact.contact_name || '')}"></div>
     <div class="field"><label>Email</label><input id="cl_email" value="${esc(contact.email || '')}"></div>
     <div class="field"><label>Teléfono</label><input id="cl_phone" value="${esc(contact.phone || '')}"></div>
@@ -532,6 +710,7 @@ function saveClientForm() {
   const patch = {
     name: document.getElementById('cl_name').value.trim() || c.name,
     type: document.getElementById('cl_type').value,
+    active: document.getElementById('cl_active').checked,
     contact: {
       contact_name: document.getElementById('cl_contact').value,
       email: document.getElementById('cl_email').value,
@@ -1605,7 +1784,7 @@ function exportCsv() {
   const clients = Object.fromEntries(out.clients.map(c => [c.id, c]));
   const actsByEpic = {};
   for (const a of out.activities || []) { (actsByEpic[a.root_epic_key] || (actsByEpic[a.root_epic_key] = [])).push(a); }
-  const header = ['cliente_id', 'cliente', 'tipo_cliente', 'contacto', 'email', 'telefono', 'direccion', 'centro_id', 'centro', 'epic_doit', 'com', 'estado_epic', 'fecha_epic', 'actividad_doit', 'tipo_linea', 'cantidad', 'producto_actividad', 'referencia', 'categoria', 'estado_actividad', 'fecha_actividad', 'resumen_epic'];
+  const header = ['cliente_id', 'cliente', 'tipo_cliente', 'cliente_activo', 'contacto', 'email', 'telefono', 'direccion', 'centro_id', 'centro', 'epic_doit', 'com', 'estado_epic', 'fecha_epic', 'actividad_doit', 'tipo_linea', 'cantidad', 'producto_actividad', 'referencia', 'categoria', 'estado_actividad', 'fecha_actividad', 'resumen_epic'];
   const lines = [header.map(csvCell).join(',')];
   for (const e of out.epics || []) {
     const cl = clients[e.client_id] || {};
@@ -1613,7 +1792,8 @@ function exportCsv() {
     const contact = cl.contact || {};
     const rows = actsByEpic[e.key] && actsByEpic[e.key].length ? actsByEpic[e.key] : [{}];
     for (const a of rows) {
-      lines.push([cl.id, cl.name, cl.type, contact.contact_name, contact.email, contact.phone, contact.address, ct.id, ct.name, e.key, e.com, e.status_group || e.status, e.created, a.key, a.line_kind, a.quantity, a.product_name || a.summary, a.reference, a.category, a.status, a.created, e.summary].map(csvCell).join(','));
+      const clActive = cl.active !== false ? 'Activo' : 'Inactivo';
+      lines.push([cl.id, cl.name, cl.type, clActive, contact.contact_name, contact.email, contact.phone, contact.address, ct.id, ct.name, e.key, e.com, e.status_group || e.status, e.created, a.key, a.line_kind, a.quantity, a.product_name || a.summary, a.reference, a.category, a.status, a.created, e.summary].map(csvCell).join(','));
     }
   }
   downloadText('crm_jira_2022_2026_operativo.csv', lines.join('\n'), 'text/csv;charset=utf-8');
@@ -1630,11 +1810,22 @@ function clearLocal() {
 
 function bindEvents() {
   // Search and Filters inputs
-  ['searchInput', 'typeFilter', 'statusFilter', 'yearFilter', 'centerFilter'].forEach(id => {
+  ['typeFilter', 'statusFilter', 'yearFilter', 'centerFilter'].forEach(id => {
     document.getElementById(id).addEventListener('input', () => {
       selectedEpicKey = '';
       refreshAll();
     });
+  });
+
+  document.getElementById('searchInput').addEventListener('input', () => {
+    selectedEpicKey = '';
+    const q = document.getElementById('searchInput').value.trim();
+    if (q && currentPage !== 'search-results') {
+      switchPage('search-results');
+    } else if (!q && currentPage === 'search-results') {
+      switchPage(lastNonSearchPage || 'overview');
+    }
+    refreshAll();
   });
 
   // Reset Filters
@@ -1675,7 +1866,10 @@ function bindEvents() {
 
   // Sidebar navigation
   document.querySelectorAll('.sidebar-nav .nav-btn').forEach(btn => {
-    btn.onclick = () => switchPage(btn.dataset.page);
+    btn.onclick = () => {
+      switchPage(btn.dataset.page);
+      refreshAll();
+    };
   });
 
   // Mobile menu toggle
@@ -1691,7 +1885,18 @@ function bindEvents() {
 
   // Product page analytics event
   document.getElementById('productSearchInput').addEventListener('input', (e) => {
-    selectedProductId = e.target.value;
+    const q = e.target.value.trim();
+    const qNorm = q.toLowerCase();
+    let foundKey = '';
+    for (const key in idx.productSales) {
+      if (key.toLowerCase() == qNorm) {
+        foundKey = key;
+        break;
+      }
+    }
+    if (foundKey) {
+      selectedProductId = foundKey;
+    }
     renderProductAnalytics();
   });
 
@@ -1838,20 +2043,17 @@ function initSearchSuggestions() {
           selectedClientId = id;
           selectedCenterId = '';
           selectedEpicKey = '';
-          searchInput.value = '';
           switchPage('clients');
         } else if (type === 'epic') {
           const ep = idx.epicsByKey[id] || {};
           selectedClientId = ep.client_id || '';
           selectedCenterId = ep.center_id || '';
           selectedEpicKey = id;
-          searchInput.value = '';
           switchPage('clients');
         } else if (type === 'product') {
           selectedProductId = id;
           const prodSearchInput = document.getElementById('productSearchInput');
           if (prodSearchInput) prodSearchInput.value = id;
-          searchInput.value = '';
           switchPage('products');
         }
 
@@ -2005,7 +2207,6 @@ function renderSearchResults() {
       selectedClientId = btn.dataset.id;
       selectedCenterId = '';
       selectedEpicKey = '';
-      document.getElementById('searchInput').value = '';
       switchPage('clients');
       refreshAll();
     };
@@ -2016,7 +2217,6 @@ function renderSearchResults() {
       selectedClientId = btn.dataset.client;
       selectedCenterId = btn.dataset.center;
       selectedEpicKey = btn.dataset.epic;
-      document.getElementById('searchInput').value = '';
       switchPage('clients');
       refreshAll();
     };
@@ -2027,7 +2227,6 @@ function renderSearchResults() {
       selectedProductId = btn.dataset.key;
       const pSearch = document.getElementById('productSearchInput');
       if (pSearch) pSearch.value = btn.dataset.key;
-      document.getElementById('searchInput').value = '';
       switchPage('products');
       refreshAll();
     };

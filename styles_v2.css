@@ -418,13 +418,19 @@ th.sortable.desc::after {
   gap: 6px;
 }
 .nested-product-item {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 140px 70px 60px;
+  gap: 8px;
   align-items: center;
-  padding: 4px 8px;
+  padding: 6px 10px;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 4px;
+}
+.nested-product-item span:first-child {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* ─── DETAIL READABILITY ─── */
@@ -440,4 +446,47 @@ th.sortable.desc::after {
   font-weight: 800 !important;
   margin-top: 4px;
   display: inline-block;
+}
+
+/* ─── ACTIVE FILTER PILLS & INACTIVE STATUS ─── */
+.topbar-filter-indicator {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.filter-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  background: var(--accent-glow);
+  border: 1px solid var(--border2);
+  color: var(--accent2);
+  border-radius: 99px;
+  font-size: 11px;
+  font-weight: 600;
+}
+.filter-pill-close {
+  cursor: pointer;
+  opacity: 0.6;
+  font-weight: 700;
+  transition: var(--transition);
+  font-size: 13px;
+  line-height: 1;
+}
+.filter-pill-close:hover {
+  opacity: 1;
+  color: var(--red);
+}
+.client-inactive {
+  opacity: 0.55;
+}
+.stat-card.clickable {
+  cursor: pointer;
+}
+.stat-card.clickable:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(59,130,246,0.15);
+  border-color: var(--accent);
 }
