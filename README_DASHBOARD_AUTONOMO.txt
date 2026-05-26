@@ -18,6 +18,7 @@ IMPORTANTE
 - El JSON exportado contiene la base completa con tus cambios aplicados.
 
 ARCHIVOS
+- dashboard_v2.html: última versión.
 - dashboard_crm_jira_2022_2026_autonomo.html: dashboard principal autonomo.
 - crm_jira_2022_2026_base_autonomo.json: copia de la base inicial, solo como respaldo/documentacion.
 

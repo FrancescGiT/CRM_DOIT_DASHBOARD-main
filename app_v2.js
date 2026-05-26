@@ -28,6 +28,8 @@ let clientComsSortAsc = true;
 function deepClone(o) { return JSON.parse(JSON.stringify(o)); }
 function esc(s) { return String(s ?? '').replace(/[&<>'"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[c])); }
 function norm(s) { return String(s ?? '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, ''); }
+function isProductLine(a) { return (a?.line_kind || '') === 'Producto'; }
+function isServiceLine(a) { return String(a?.line_kind || '').startsWith('Servicio'); }
 function downloadText(filename, text, mime) { const blob = new Blob([text], { type: mime || 'text/plain;charset=utf-8' }); const url = URL.createObjectURL(blob); const a = document.createElement('a'); a.href = url; a.download = filename; document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(url), 700); }
 function getStorage() { try { localStorage.setItem('__test', '1'); localStorage.removeItem('__test'); return localStorage; } catch (e) { storageAvailable = false; return null; } }
 const storage = getStorage();
@@ -246,7 +248,7 @@ function buildIndexes() {
     idx.activitiesByEpic[k].push(a);
 
     // Index product stats
-    if (a.line_kind === 'Producto' && (a.product_name || a.reference)) {
+    if (isProductLine(a) && (a.product_name || a.reference)) {
       const prodName = (a.product_name || '').trim();
       const refCode = detectReference(prodName, a.summary, a.reference);
       const ref = refCode || prodName;
@@ -272,6 +274,7 @@ function buildIndexes() {
 
       idx.productSales[ref].years[year] = (idx.productSales[ref].years[year] || 0) + qty;
       idx.productSales[ref].details.push({
+        activity_key: a.key,
         epic_key: k,
         com: epic.com || '',
         client_id: a.client_id,
@@ -279,7 +282,10 @@ function buildIndexes() {
         quantity: qty,
         date: a.created_date || a.created || '',
         status: a.status || '',
-        line_description: prodName
+        line_description: prodName,
+        product_name: prodName,
+        reference: refCode || '',
+        category: a.category || ''
       });
 
       // Update client stats
@@ -287,7 +293,7 @@ function buildIndexes() {
       if (cl) {
         cl.stats.productos += qty;
       }
-    } else if (a.line_kind === 'Servicio') {
+    } else if (isServiceLine(a)) {
       const qty = parseInt(a.quantity || 1) || 1;
       const cl = idx.clientsById[a.client_id];
       if (cl) {
@@ -616,8 +622,8 @@ function renderStats() {
     if (e.status_group === 'Activa') active++;
     const acts = idx.activitiesByEpic[e.key] || [];
     for (const a of acts) {
-      if (a.line_kind === 'Producto') products += parseInt(a.quantity || 1) || 1;
-      else if (a.line_kind === 'Servicio') services += parseInt(a.quantity || 1) || 1;
+      if (isProductLine(a)) products += parseInt(a.quantity || 1) || 1;
+      else if (isServiceLine(a)) services += parseInt(a.quantity || 1) || 1;
     }
   }
 
@@ -809,7 +815,7 @@ function renderTopClients() {
       clStat.epics++;
       const acts = idx.activitiesByEpic[e.key] || [];
       for (const a of acts) {
-        if (a.line_kind === 'Producto') {
+        if (isProductLine(a)) {
           clStat.productos += (parseInt(a.quantity || 1) || 1);
         }
       }
@@ -1209,8 +1215,8 @@ function renderEpics() {
     const client = idx.clientsById[e.client_id] || {};
     const center = idx.centersById[e.center_id] || {};
     const acts = idx.activitiesByEpic[e.key] || [];
-    const prod = acts.filter(a => a.line_kind === 'Producto').length;
-    const serv = acts.filter(a => a.line_kind === 'Servicio').length;
+    const prod = acts.filter(a => isProductLine(a)).length;
+    const serv = acts.filter(a => isServiceLine(a)).length;
     return `<tr class="clickable ${selectedEpicKey === e.key ? 'selected-row' : ''}" data-epic="${esc(e.key)}">
       <td class="mono"><b>${esc(e.key)}</b></td>
       <td class="mono">${esc(e.com || 'SIN COM')}</td>
@@ -1405,6 +1411,147 @@ function openEditLineModal(actKey) {
   };
 }
 
+function openBulkEditProductModal(productKey) {
+  const salesData = idx.productSales[productKey];
+  if (!salesData) {
+    alert('Producto no encontrado.');
+    return;
+  }
+
+  const actKeys = [...new Set((salesData.details || []).map(d => d.activity_key).filter(Boolean))];
+  if (!actKeys.length) {
+    alert('No se han encontrado líneas editables para este producto.');
+    return;
+  }
+
+  const sourceActs = actKeys.map(key => (data.activities || []).find(a => a.key === key)).filter(Boolean);
+  const firstAct = sourceActs[0] || {};
+  const currentName = salesData.name || firstAct.product_name || '';
+  const currentRef = salesData.reference || firstAct.reference || '';
+  const currentCategory = firstAct.category || salesData.details.find(d => d.category)?.category || '';
+  const categories = [...new Set((data.activities || []).map(a => a.category).filter(Boolean))].sort();
+
+  const modalHtml = `
+    <div class="modal-overlay active" id="bulkProductModalOverlay">
+      <div class="modal-container">
+        <div class="modal-header">
+          <h3>Editar grupo de producto</h3>
+          <button class="modal-close-btn" id="closeBulkProductModalBtn">&times;</button>
+        </div>
+        <div class="modal-body">
+          <div class="tag tag-blue" style="margin-bottom:12px;">${actKeys.length} líneas se actualizarán juntas</div>
+          <div class="contact-grid" style="grid-template-columns: 1fr;">
+            <div class="field" style="position:relative;">
+              <label>Nombre producto</label>
+              <input id="bulk_prod_name" autocomplete="off" value="${esc(currentName)}">
+              <div id="bulkProductSuggestions" class="search-suggestions-dropdown" style="left:0;right:0;top:58px;"></div>
+            </div>
+            <div class="field"><label>Referencia</label><input id="bulk_prod_ref" value="${esc(currentRef)}" placeholder="Sin ref"></div>
+            <div class="field"><label>Categoría</label><input id="bulk_prod_cat" list="bulkProductCategories" value="${esc(currentCategory)}"></div>
+            <datalist id="bulkProductCategories">
+              ${categories.map(cat => `<option value="${esc(cat)}"></option>`).join('')}
+            </datalist>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn" id="closeBulkProductModalFooterBtn">Cancelar</button>
+          <button class="btn btn-primary" id="saveBulkProductModalBtn">Guardar grupo</button>
+        </div>
+      </div>
+    </div>
+  `;
+
+  let modalContainer = document.getElementById('modalContainer');
+  if (!modalContainer) {
+    modalContainer = document.createElement('div');
+    modalContainer.id = 'modalContainer';
+    document.body.appendChild(modalContainer);
+  }
+  modalContainer.innerHTML = modalHtml;
+
+  const closeModal = () => {
+    const overlay = document.getElementById('bulkProductModalOverlay');
+    if (overlay) {
+      overlay.classList.remove('active');
+      setTimeout(() => overlay.remove(), 250);
+    }
+  };
+
+  const nameInput = document.getElementById('bulk_prod_name');
+  const refInput = document.getElementById('bulk_prod_ref');
+  const catInput = document.getElementById('bulk_prod_cat');
+  const suggestionsDiv = document.getElementById('bulkProductSuggestions');
+
+  const renderSuggestions = () => {
+    const q = norm(nameInput.value);
+    if (!q) {
+      suggestionsDiv.innerHTML = '';
+      suggestionsDiv.classList.remove('active');
+      return;
+    }
+
+    const matches = Object.values(idx.productSales)
+      .filter(p => norm(p.name).includes(q) || norm(p.reference).includes(q))
+      .filter(p => (p.name || '') !== currentName || (p.reference || '') !== currentRef)
+      .slice(0, 8);
+
+    if (!matches.length) {
+      suggestionsDiv.innerHTML = '';
+      suggestionsDiv.classList.remove('active');
+      return;
+    }
+
+    suggestionsDiv.innerHTML = matches.map(p => `
+      <div class="suggestion-item bulk-product-suggestion" data-name="${esc(p.name || '')}" data-ref="${esc(p.reference || '')}">
+        <span class="suggestion-text">${esc(p.name || '')}</span>
+        <span class="suggestion-category">${esc(p.reference || 'Sin ref')}</span>
+      </div>
+    `).join('');
+    suggestionsDiv.classList.add('active');
+
+    suggestionsDiv.querySelectorAll('.bulk-product-suggestion').forEach(item => {
+      item.onclick = () => {
+        nameInput.value = item.dataset.name || '';
+        refInput.value = item.dataset.ref || '';
+        suggestionsDiv.classList.remove('active');
+      };
+    });
+  };
+
+  nameInput.addEventListener('input', renderSuggestions);
+  document.getElementById('closeBulkProductModalBtn').onclick = closeModal;
+  document.getElementById('closeBulkProductModalFooterBtn').onclick = closeModal;
+
+  document.getElementById('saveBulkProductModalBtn').onclick = () => {
+    const name = nameInput.value.trim();
+    const ref = refInput.value.trim();
+    const cat = catInput.value.trim();
+    if (!name && !ref) {
+      alert('Indica un nombre o una referencia para el producto.');
+      return;
+    }
+
+    patches.activities = patches.activities || {};
+    actKeys.forEach(actKey => {
+      patches.activities[actKey] = patches.activities[actKey] || {};
+      mergeObj(patches.activities[actKey], {
+        product_name: name,
+        summary: name,
+        reference: ref,
+        category: cat
+      });
+    });
+
+    applyPatches();
+    persistPatches();
+    selectedProductId = ref || name;
+    const productSearchInput = document.getElementById('productSearchInput');
+    if (productSearchInput) productSearchInput.value = selectedProductId;
+    closeModal();
+    refreshAll();
+  };
+}
+
 function saveEpicForm() {
   const e = idx.epicsByKey[selectedEpicKey]; if (!e) return;
   const newCenter = document.getElementById('ep_center').value;
@@ -1541,6 +1688,7 @@ function renderProductAnalytics() {
       const total = Object.values(p.years).reduce((a, b) => a + b, 0);
       return { name: p.name, reference: p.reference || '', key: p.reference || p.name, total };
     })
+    .filter(p => p.total > 0)
     .filter(p => !searchQ || norm(p.name).includes(searchQ) || norm(p.reference).includes(searchQ))
     .sort((a, b) => b.total - a.total); // default sorted by units sold descending
 
@@ -1567,16 +1715,54 @@ function renderProductAnalytics() {
   document.querySelectorAll('#topProductsList .product-row-btn').forEach(el => {
     el.onclick = () => {
       selectedProductId = el.dataset.prod;
+      document.getElementById('productSearchInput').value = selectedProductId;
       renderProductAnalytics();
+      updateFilterIndicator();
+      updateFilterBanner();
     };
   });
 
   // Render sales detail panels
-  const currentProd = selectedProductId || (allProds[0] ? allProds[0].key : '');
+  const currentProd = selectedProductId || '';
   const salesData = idx.productSales[currentProd];
   const chartPanel = document.getElementById('productYearChart');
   const detailPanel = document.getElementById('productDetailPanel');
   const detailTitle = document.getElementById('productDetailTitle');
+  let bulkEditBtn = document.getElementById('bulkEditProductBtn');
+  if (!bulkEditBtn && detailTitle?.parentElement) {
+    bulkEditBtn = document.createElement('button');
+    bulkEditBtn.id = 'bulkEditProductBtn';
+    bulkEditBtn.className = 'btn btn-sm';
+    bulkEditBtn.textContent = 'Editar grupo';
+    detailTitle.parentElement.appendChild(bulkEditBtn);
+  }
+
+  if (!selectedProductId) {
+    if (bulkEditBtn) bulkEditBtn.style.display = 'none';
+    const totalsByYear = {};
+    for (const p of Object.values(idx.productSales)) {
+      for (const [year, qty] of Object.entries(p.years || {})) {
+        totalsByYear[year] = (totalsByYear[year] || 0) + qty;
+      }
+    }
+    const years = Object.keys(totalsByYear).sort();
+    const max = Math.max(1, ...Object.values(totalsByYear));
+    chartPanel.innerHTML = years.length ? `
+      <h3 style="font-size:13px;margin-bottom:12px">Evolución anual global de productos (uds):</h3>
+      <div class="bar-chart">
+        ${years.map(y => {
+      const val = totalsByYear[y];
+      const h = Math.max(2, Math.round(val / max * 130));
+      return `<div class="bar-col">
+            <div class="bar" style="height:${h}px;background:linear-gradient(180deg,var(--cyan),var(--accent))"><span class="value">${val}</span></div>
+            <div class="bar-label">${esc(y)}</div>
+          </div>`;
+    }).join('')}
+      </div>` : '<div class="empty">No hay datos de productos.</div>';
+    detailPanel.innerHTML = '<div class="empty">Selecciona un producto para ver en qué centros y comandas se ha solicitado.</div>';
+    detailTitle.textContent = 'Detalle de producto';
+    return;
+  }
 
   if (!salesData) {
     chartPanel.innerHTML = '<div class="empty">Selecciona o busca un producto para ver su evolución anual.</div>';
@@ -1587,6 +1773,10 @@ function renderProductAnalytics() {
 
   const titleText = salesData.reference ? `${salesData.name} (${salesData.reference})` : salesData.name;
   detailTitle.textContent = `Detalle: ${esc(titleText)}`;
+  if (bulkEditBtn) {
+    bulkEditBtn.style.display = 'inline-flex';
+    bulkEditBtn.onclick = () => openBulkEditProductModal(currentProd);
+  }
 
   // Render annual chart
   const years = Object.keys(salesData.years).sort();
@@ -1926,8 +2116,16 @@ function bindEvents() {
     const q = e.target.value.trim();
     const qNorm = q.toLowerCase();
     let foundKey = '';
+    if (!q) {
+      selectedProductId = '';
+      renderProductAnalytics();
+      updateFilterIndicator();
+      updateFilterBanner();
+      return;
+    }
     for (const key in idx.productSales) {
-      if (key.toLowerCase() == qNorm) {
+      const p = idx.productSales[key] || {};
+      if (key.toLowerCase() == qNorm || (p.reference || '').toLowerCase() == qNorm || (p.name || '').toLowerCase() == qNorm) {
         foundKey = key;
         break;
       }
@@ -1936,6 +2134,8 @@ function bindEvents() {
       selectedProductId = foundKey;
     }
     renderProductAnalytics();
+    updateFilterIndicator();
+    updateFilterBanner();
   });
 
   // Event Delegation for Epic tables sort header clicks

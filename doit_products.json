@@ -1,7 +1,12 @@
 [
   {
-    "name": "*** ESPEJO DE 180X100 PARA OTRO",
-    "reference": "CENTRO",
+    "name": "\" ELECTRIC PROJECTION SCREEN",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "*** ESPEJO DE 180X100 PARA OTRO CENTRO",
+    "reference": "",
     "occurrences": 1
   },
   {
@@ -10,44 +15,19 @@
     "occurrences": 1
   },
   {
-    "name": "1,00 Línea Carro Multisensorial Portátil - Modelo 3 CSDOIT3.0EN",
+    "name": "a",
     "reference": "",
     "occurrences": 1
   },
   {
-    "name": "15 X 180 TUBE FOR BASE",
-    "reference": "DOCB150PEN-T",
-    "occurrences": 15
-  },
-  {
-    "name": "15 X 180 TUBE FOR BASE DOCB150PEN-T (en tenim 8 acabats)",
+    "name": "Acolchat frontal lateral de 50x45x5 (per la base)",
     "reference": "",
     "occurrences": 1
   },
   {
-    "name": "150\" ELECTRIC PROJECTION",
-    "reference": "SCREEN",
+    "name": "ACONDICIONADOR LLIT AIGUA",
+    "reference": "",
     "occurrences": 1
-  },
-  {
-    "name": "15x180 BUBBLE TUBE BASE (Without the acrylic tube)",
-    "reference": "DOCB15DOIT-B",
-    "occurrences": 1
-  },
-  {
-    "name": "4 BOLAS LUMINOSAS CON DIFERENTES TEXTURAS",
-    "reference": "CM72207",
-    "occurrences": 4
-  },
-  {
-    "name": "8 COLOUR BUTTONS COMMUNICATOR DOIT",
-    "reference": "DO8PULS",
-    "occurrences": 5
-  },
-  {
-    "name": "9 COLOUR BUTTONS COMMUNICATOR DOIT",
-    "reference": "DO8PULS",
-    "occurrences": 8
   },
   {
     "name": "ACONDICIONADOR PARA COLCHÓN DE AGUA",
@@ -55,13 +35,38 @@
     "occurrences": 3
   },
   {
+    "name": "ACRYLIC MIRROR",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "ACRYLIC MIRROR IN A WOOD FRAME",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "Actualització de la console (garantia)",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
     "name": "ACTUALIZACIÓN HARDWARE Y SOFTWARE CONSOLA DOIT",
     "reference": "DOCONSUPDATE",
     "occurrences": 3
   },
   {
-    "name": "ACTUALIZACIÓN PANTALLA TÁCTIL DE 43\" PARA LAS ACTIVIDADES DE LA DOIT",
-    "reference": "CONSOLE",
+    "name": "ACTUALIZACIÓN HARDWARE Y SOFTWARE CONSOLA DOIT (PASSA DE PI3 A PI4) TENEN CENTRALETA RELÉS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "ACTUALIZACIÓN PANTALLA TÁCTIL DE 43\" PARA LAS ACTIVIDADES DE LA DOIT CONSOLE",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "ADAPTADOR DOIT (PASTILLES???)",
+    "reference": "",
     "occurrences": 1
   },
   {
@@ -70,8 +75,23 @@
     "occurrences": 1
   },
   {
-    "name": "AIRPUMP FOR BUBBLE",
-    "reference": "TUBE",
+    "name": "AIRPUMP FOR BUBBLE TUBE",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "ALFOMBRA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "ALFOMBRA DE FIBRAS",
+    "reference": "DOFA21",
+    "occurrences": 1
+  },
+  {
+    "name": "ALFOMBRA FIBRA OPTICA",
+    "reference": "",
     "occurrences": 1
   },
   {
@@ -80,9 +100,14 @@
     "occurrences": 2
   },
   {
+    "name": "ALFOMBRA NEGRA DE FIBRA ÓPTICA 200X100 !!!!!!!!!!!!!!!!!!!!!!!!!!!!11",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
     "name": "ALFOMBRA NEGRA DE FIBRA ÓPTICA DIMENSIONES 200X100",
     "reference": "DOFA21",
-    "occurrences": 2
+    "occurrences": 3
   },
   {
     "name": "ALFOMBRA NEGRA DE FIBRA ÓPTICA, DIMENSIONES 200X100 DOIT SUPERINTERACTIVO",
@@ -92,7 +117,7 @@
   {
     "name": "ALFOMBRA NEGRA DE FIBRA ÓPTICA, DIMENSIONES 200X200",
     "reference": "DOFA22",
-    "occurrences": 3
+    "occurrences": 14
   },
   {
     "name": "ALFOMBRA NEGRA DE FIBRA ÓPTICA, DIMENSIONES 200X200 DOIT SUPERINTERACTIVO",
@@ -115,12 +140,22 @@
     "occurrences": 2
   },
   {
+    "name": "ALFOMBRA REACTIVA A LA LLUM NEGRA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "ALFOMBRA REACTIVA A LA LUZ NEGRA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
     "name": "ALFOMBRA REACTIVA A LUZ NEGRA DE 100X100 CM",
     "reference": "UVM1X1",
     "occurrences": 1
   },
   {
-    "name": "ALFOMBRA REACTIVA A LUZ NEGRA DE 100X100 CMS",
+    "name": "ALFOMBRA REACTIVA A LUZ NEGRA DE 100X100 CMS.",
     "reference": "DOIT10MVU",
     "occurrences": 1
   },
@@ -130,14 +165,34 @@
     "occurrences": 1
   },
   {
-    "name": "ALIMENTADOR FUENTE DE LUZ",
-    "reference": "TUNEL",
+    "name": "ALIMENTADOR FUENTE DE LUZ TUNEL",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "ALTAVEU BLUETOOTH",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "ALTAVEU BLUETOOTH AIWA PER CARRO MULTISENSORIAL RECANVI",
+    "reference": "",
     "occurrences": 1
   },
   {
     "name": "ALTAVEUS",
-    "reference": "JBL",
-    "occurrences": 2
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "ALTAVEUS JBL",
+    "reference": "",
+    "occurrences": 17
+  },
+  {
+    "name": "ALTAVEUS JBL",
+    "reference": "JBLONEPRO",
+    "occurrences": 1
   },
   {
     "name": "ALTAVEUS JBL CONTROL 1",
@@ -145,9 +200,44 @@
     "occurrences": 1
   },
   {
+    "name": "ALTAVEUS JBL CONTROL ONE",
+    "reference": "",
+    "occurrences": 3
+  },
+  {
+    "name": "ALTAVEUS JBL CONTROL ONE PRO",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "ALTAVEUS JBL CONTROL ONER PRO",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "ALTAVEUS VIBRO-ACUSTICS SENSE ETIQUETES",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "ALTAVOCES JBL",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "ALTAVOCES JBL CONTROL ONE",
+    "reference": "",
+    "occurrences": 3
+  },
+  {
+    "name": "ALTAVOCES JBL CONTROL ONE PRO",
+    "reference": "",
+    "occurrences": 5
+  },
+  {
     "name": "ALTAVOCES JBL CONTROL ONE PRO",
     "reference": "JBLONEPRO",
-    "occurrences": 45
+    "occurrences": 61
   },
   {
     "name": "ALTAVOCES VIBRO ACÚSTICOS",
@@ -155,67 +245,87 @@
     "occurrences": 5
   },
   {
-    "name": "AMPLI 4",
-    "reference": "CANALS",
+    "name": "AMPLI",
+    "reference": "",
+    "occurrences": 3
+  },
+  {
+    "name": "AMPLI 4 CANALES",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "AMPLI 4 CANALS",
+    "reference": "",
+    "occurrences": 5
+  },
+  {
+    "name": "AMPLI 4 CANALS AUDIO",
+    "reference": "DOIT240VBT",
     "occurrences": 1
+  },
+  {
+    "name": "AMPLI 4 CANALS VIBRACIÓ",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "AMPLI AMB CONTROL DE VIBRACIÓ",
+    "reference": "",
+    "occurrences": 4
+  },
+  {
+    "name": "AMPLI AUDIO",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "AMPLI CONTROL VIBRACIÓ",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "AMPLI CONTROL VIBRO",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "AMPLI PIONEER",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "AMPLI SALA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "AMPLI YAMAHA",
+    "reference": "",
+    "occurrences": 6
+  },
+  {
+    "name": "AMPLI YAMAHA",
+    "reference": "RS202D",
+    "occurrences": 1
+  },
+  {
+    "name": "AMPLI YAMAHA O SIMILAR",
+    "reference": "",
+    "occurrences": 2
   },
   {
     "name": "AMPLIFICADOR",
-    "reference": "4CH",
-    "occurrences": 1
+    "reference": "",
+    "occurrences": 3
   },
   {
-    "name": "AMPLIFICADOR CON 4 CANALES PARA LA VIBRACIÓN Y SONIDO DE LA SALA",
-    "reference": "DOIT240VBT",
-    "occurrences": 59
-  },
-  {
-    "name": "AMPLIFICADOR CON 6 CANALES PARA LA VIBRACIÓN Y SONIDO DE LA SALA",
-    "reference": "DOIT240VBT",
-    "occurrences": 6
-  },
-  {
-    "name": "AMPLIFICADOR YAMAHA RS 202 D",
-    "reference": "R-S202D",
-    "occurrences": 1
-  },
-  {
-    "name": "ANCLAJE DE TECHO PARA ELEMENTOS",
-    "reference": "VESTIBULARES",
-    "occurrences": 1
-  },
-  {
-    "name": "ARMARIO PARA EQUIPOS DE AUDIO Y MULTIMEDIA",
-    "reference": "CABEN",
-    "occurrences": 25
-  },
-  {
-    "name": "ARO DE SUJECIÓN PARA LA COLUMNA A PARED",
-    "reference": "AROCOL",
-    "occurrences": 6
-  },
-  {
-    "name": "AROMATERAPIA",
-    "reference": "CLASICA",
-    "occurrences": 1
-  },
-  {
-    "name": "AROMATERÁPIA INTERACTIVA DOIT",
+    "name": "AMPLIFICADOR 4 CANALES AUDIO",
     "reference": "",
     "occurrences": 1
   },
   {
-    "name": "AUDIO AMPLIFIER WITH 4 CHANNELS FOR ROOM VIBRATION AND SOUND",
-    "reference": "DOIT240VBT",
-    "occurrences": 8
-  },
-  {
-    "name": "Acolchat frontal lateral de 50x45x5 (per la base)",
-    "reference": "",
-    "occurrences": 1
-  },
-  {
-    "name": "Actualització de la console (garantia)",
+    "name": "AMPLIFICADOR 4CH",
     "reference": "",
     "occurrences": 1
   },
@@ -225,22 +335,242 @@
     "occurrences": 1
   },
   {
+    "name": "AMPLIFICADOR AMB SELECTOR DE 4 CANALS PER VIBRACIÓ",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "AMPLIFICADOR AUDIO",
+    "reference": "",
+    "occurrences": 5
+  },
+  {
+    "name": "AMPLIFICADOR CON 4 CANALES PARA LA VIBRACIÓN Y SONIDO DE LA SAL",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "AMPLIFICADOR CON 4 CANALES PARA LA VIBRACIÓN Y SONIDO DE LA SALA",
+    "reference": "",
+    "occurrences": 3
+  },
+  {
+    "name": "AMPLIFICADOR CON 4 CANALES PARA LA VIBRACIÓN Y SONIDO DE LA SALA",
+    "reference": "DOIT240VB",
+    "occurrences": 2
+  },
+  {
+    "name": "AMPLIFICADOR CON 4 CANALES PARA LA VIBRACIÓN Y SONIDO DE LA SALA",
+    "reference": "DOIT240VBT",
+    "occurrences": 75
+  },
+  {
+    "name": "AMPLIFICADOR CON 6 CANALES PARA LA VIBRACIÓN Y SONIDO DE LA SALA",
+    "reference": "DOIT240VBT",
+    "occurrences": 6
+  },
+  {
+    "name": "AMPLIFICADOR DE AUDIO",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "AMPLIFICADOR YAMAHA RS 202 D",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "AMPLIFICADOR YAMAHA RS 202 D",
+    "reference": "R-S202D",
+    "occurrences": 1
+  },
+  {
+    "name": "ANCLAJE DE TECHO PARA ELEMENTOS VESTIBULARES",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "ARMARI PER EQUIPS MULTIMEDIA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "ARMARI PER TOTS ELS EQUIPS MULTIMEDIA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "ARMARIO CON PUERTAS PARA EQUIPO DE AUDIO Y CONSOLA DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "ARMARIO CON PUERTAS PARA EQUIPO DE AUDIO Y CONSOLA DOIT ARMCLO",
+    "reference": "",
+    "occurrences": 10
+  },
+  {
+    "name": "ARMARIO PARA EQUIPOS DE AUDIO Y MULTIMEDIA",
+    "reference": "CABEN",
+    "occurrences": 30
+  },
+  {
+    "name": "ARO DE SUJECIÓN PARA LA COLUMNA A PARED",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "ARO DE SUJECIÓN PARA LA COLUMNA A PARED",
+    "reference": "AROCOL",
+    "occurrences": 19
+  },
+  {
+    "name": "ARO SUJECIÓN COLUMNA A PARED",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "AROMATERAPIA BASICA",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "AROMATERAPIA BÀSIC",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "AROMATERAPIA CLASICA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "AROMATERAPIA DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "AROMATERAPIA DOIT SUPERINTERACTIVA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "AROMATERAPIA INTERACTIVA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "AROMATERÁPIA INTERACTIVA DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "AUDIO AMPLIFIER WITH 4 CHANNELS FOR ROOM VIBRATION AND SOUND",
+    "reference": "",
+    "occurrences": 4
+  },
+  {
+    "name": "AUDIO AMPLIFIER WITH 4 CHANNELS FOR ROOM VIBRATION AND SOUND",
+    "reference": "DOIT240VBT",
+    "occurrences": 9
+  },
+  {
+    "name": "BARRAS ACRILICAS REACTIVAS LUZ NEGRA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "BASE",
+    "reference": "",
+    "occurrences": 5
+  },
+  {
     "name": "BASE 100X100X25 CMS TAPIZADA",
     "reference": "DOBAS1121",
     "occurrences": 1
   },
   {
+    "name": "BASE 100X100X50 PARA COLUMNA Y FIBRAS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "BASE 100X100X50 PER COLUMNA I FIBRES",
+    "reference": "",
+    "occurrences": 3
+  },
+  {
+    "name": "BASE 100X100X50 QUADRADA COLOR BLAANC AMB FIBRES",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "BASE 100X100X50 QUADRADA PER COLUMNA I FIBRES",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "BASE 100X100X50 SEMI CIRCULAR",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "BASE 100X100X50 SEMICIRCULAR",
+    "reference": "",
+    "occurrences": 3
+  },
+  {
+    "name": "BASE 100X100X50 SEMICIRCULAR PARA UNA COLUMNA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
     "name": "BASE 100X100X50 SEMICIRCULAR PARA UNA COLUMNA",
     "reference": "DOBAS1110SC",
-    "occurrences": 26
+    "occurrences": 27
+  },
+  {
+    "name": "BASE 100X100X50 SEMICIRCULAR PER COLUMNA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "BASE 100X100X50 TAPISSADA",
+    "reference": "",
+    "occurrences": 4
+  },
+  {
+    "name": "BASE 100X100X50 TAPISSADA PER COLUMNA I FIBRES",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "BASE 100X100X50 TAPIZADA",
+    "reference": "",
+    "occurrences": 3
   },
   {
     "name": "BASE 100X100X50 TAPIZADA",
     "reference": "DOBAS1152",
-    "occurrences": 26
+    "occurrences": 41
   },
   {
-    "name": "BASE 100X100X50 TAPIZADA DOBAS1152 (base semi-circular + podi 100x50)",
+    "name": "BASE 100X100X50 TAPIZADA BLANCA",
+    "reference": "DOBAS1152",
+    "occurrences": 1
+  },
+  {
+    "name": "BASE 100X100X50 TAPIZADA CUADRADA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "BASE 100X100X50 TAPIZADA DOBAS1152 (base semi-circular + podi",
+    "reference": "DOBAS1152",
+    "occurrences": 1
+  },
+  {
+    "name": "BASE 100X100X50 TAPIZADA SEMICIRCULAR",
     "reference": "",
     "occurrences": 1
   },
@@ -250,13 +580,23 @@
     "occurrences": 1
   },
   {
-    "name": "BASE 100X50X50 CON UBICACIÓN PARA MAZO DE FIBRAS",
-    "reference": "DOBAS155F",
-    "occurrences": 14
+    "name": "BASE 100X50X50 AMB VIBRACIÓ",
+    "reference": "",
+    "occurrences": 2
   },
   {
-    "name": "BASE 100X50X50 CON UBICACIÓN PARA MAZO DE FIBRAS DOBAS155F SENSE",
-    "reference": "TAPISSATS",
+    "name": "BASE 100X50X50 BLANCA",
+    "reference": "DOBAS1552",
+    "occurrences": 1
+  },
+  {
+    "name": "BASE 100X50X50 CON UBICACIÓN PARA MAZO DE FIBRAS",
+    "reference": "DOBAS155F",
+    "occurrences": 15
+  },
+  {
+    "name": "BASE 100X50X50 CON UBICACIÓN PARA MAZO DE FIBRAS DOBAS155F SENSE TAPISSATS",
+    "reference": "DOBAS155F",
     "occurrences": 1
   },
   {
@@ -265,9 +605,29 @@
     "occurrences": 4
   },
   {
+    "name": "BASE 100X50X50 PER COLUMNA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "BASE 100X50X50 PER COLUMNA I FIBRES",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "BASE 100X50X50 TAPISSADA",
+    "reference": "",
+    "occurrences": 3
+  },
+  {
+    "name": "BASE 100X50X50 TAPIZADA",
+    "reference": "",
+    "occurrences": 6
+  },
+  {
     "name": "BASE 100X50X50 TAPIZADA",
     "reference": "DOBAS1552",
-    "occurrences": 7
+    "occurrences": 16
   },
   {
     "name": "BASE 100X50X50 TAPIZADA CON VIBRACIÓN",
@@ -275,8 +635,18 @@
     "occurrences": 6
   },
   {
+    "name": "BASE 100X50X50 TAPIZADA PARA COLUMNA Y FIBRAS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
     "name": "BASE 100X50X50 TAPIZADA tipo baúl",
     "reference": "DOBAS1552",
+    "occurrences": 1
+  },
+  {
+    "name": "BASE 100X50X50 VIBROACUSTICA",
+    "reference": "",
     "occurrences": 1
   },
   {
@@ -290,8 +660,23 @@
     "occurrences": 1
   },
   {
+    "name": "BASE CAMA VIBRO",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "BASE CIRCULAR AMB ESCALES D ESPUMA PER COLUMNA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
     "name": "BASE CIRCULAR MODULAR AUSARTI PARA COLUMNA DE BURBUJAS DE 15 CMS CON ESCALÓN",
     "reference": "AUSARTI",
+    "occurrences": 1
+  },
+  {
+    "name": "BASE CIRCULAR PARA COLUMNA DE BURBUJAS",
+    "reference": "",
     "occurrences": 1
   },
   {
@@ -301,7 +686,17 @@
   },
   {
     "name": "BASE CIRCULAR PARA COLUMNA DE BURBUJAS DE 15 CMS CON ESCALÓN",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "BASE CIRCULAR PARA COLUMNA DE BURBUJAS DE 15 CMS CON ESCALÓN",
     "reference": "AUS20203P",
+    "occurrences": 2
+  },
+  {
+    "name": "base columna",
+    "reference": "",
     "occurrences": 1
   },
   {
@@ -310,18 +705,108 @@
     "occurrences": 1
   },
   {
+    "name": "BASE COLUMNA DOIT INTERACTIVA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
     "name": "BASE CUADRADA 100X100X50 PARA UNA COLUMNA DE 15 CMS",
     "reference": "DOBAS1110Q",
     "occurrences": 1
   },
   {
-    "name": "BASE VIBRO-ACÚSTICA PARA COLCHÓN DIM. 200X100",
-    "reference": "BC100",
-    "occurrences": 22
+    "name": "BASE DE ESPUMA SEMICIRCULAR 125X90 ALTURA 50 CMS",
+    "reference": "",
+    "occurrences": 1
   },
   {
-    "name": "BASE VIBRO-ACÚSTICA PARA COLCHÓN DIM. 200X100 BC100 SENSE VIBRADORS S'APROFITEN DE LA BASE QUE JA",
-    "reference": "TENEN",
+    "name": "BASE ENFANTS EXTRAORDINARIES CON AGUJEROS PARA 2 COLUMNAS + FIBRAS ANCHO 186cms FRONTAL Y PARTE SUPERIOR COMPLETAMENTE TAPIZADO EN AZUL CLARO REF. AZUL CLARO",
+    "reference": "2905C",
+    "occurrences": 1
+  },
+  {
+    "name": "BASE INTERACTIVA PARA TUBO DE BURBUJAS DE 15 CMS DE DIÁMETRO",
+    "reference": "DOCB150IEN-B",
+    "occurrences": 1
+  },
+  {
+    "name": "BASE INTERACTIVE FOR BUBBLE TUBE",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "BASE LLIT AIGUA 200X100 VIBRO",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "BASE LLIT AIGUA VIBRO",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "BASE LLIT VIBRO",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "BASE LLIT VIBRO-ACÚSTICA",
+    "reference": "20TH",
+    "occurrences": 1
+  },
+  {
+    "name": "BASE PASSIVA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "BASE PASSIVE FOR BUBBLE TUBE",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "BASE PODI 100X50X50 RECTANGULAR COL X FIB",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "BASE VIBRA PER LLIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "BASE VIBRO CAMA DE AGUA",
+    "reference": "BC100",
+    "occurrences": 1
+  },
+  {
+    "name": "BASE VIBRO LLIT AIGUA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "BASE VIBRO LLIT AIGUA",
+    "reference": "BC100",
+    "occurrences": 1
+  },
+  {
+    "name": "BASE VIBRO-ACUSTICA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "BASE VIBRO-ACÚSTICA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "BASE VIBRO-ACÚSTICA PARA COLCHÓN DIM. 200X100",
+    "reference": "BC100",
+    "occurrences": 32
+  },
+  {
+    "name": "BASE VIBRO-ACÚSTICA PARA COLCHÓN DIM. 200X100 BC100 SENSE VIBRADORS S'APROFITEN DE LA BASE QUE JA TENEN",
+    "reference": "BC100",
     "occurrences": 1
   },
   {
@@ -330,9 +815,54 @@
     "occurrences": 1
   },
   {
+    "name": "BASE VIBROACUSTICA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "BASE VIBROACUSTICA CAMA DE AGUA",
+    "reference": "BC140",
+    "occurrences": 1
+  },
+  {
+    "name": "BASE VIBROACUSTICA LLIT AIGUA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "BASE VIBROACÚSSTICA LLIT AIGUA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "BASES",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "BASES DE COLUMNA PASSIVA DE",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "BASES INTARACTIVAS COLUMNA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "BASES PASIVAS COLUMNA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
     "name": "BEAM BAG 120CMS DIAMETER 20 CMS HIGH",
     "reference": "DOPU357",
     "occurrences": 2
+  },
+  {
+    "name": "BEAM BAG 120X20 VIBROACUSTIC",
+    "reference": "",
+    "occurrences": 1
   },
   {
     "name": "BEAM BAG COUCH WITH VIBRATION 95x80cms",
@@ -340,9 +870,19 @@
     "occurrences": 1
   },
   {
+    "name": "BOLA DE ESPEJOS CON MOTOR 0,5 RPM",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "BOLA DE ESPEJOS CON MOTOR 1 RPM",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
     "name": "BOLA DE ESPEJOS CON MOTOR DE 0,5 RPM",
     "reference": "DOBF1",
-    "occurrences": 11
+    "occurrences": 18
   },
   {
     "name": "BOLAS DE COLORES PARA PISCINA DE BOLAS",
@@ -351,7 +891,37 @@
   },
   {
     "name": "BOLAS DE TEXTURAS SENSORIALES",
+    "reference": "CM7405",
+    "occurrences": 1
+  },
+  {
+    "name": "BOLAS DE TEXTURAS SENSORIALES",
     "reference": "CM74058",
+    "occurrences": 11
+  },
+  {
+    "name": "BOLAS IRREGULARES",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "BOLAS LUMINOSAS AMB DIFERENTS TEXTURES",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "BOLAS LUMINOSAS CON DIFERENTES TEXTURAS",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "BOLAS LUMINOSAS CON DIFERENTES TEXTURAS",
+    "reference": "CM72207",
+    "occurrences": 7
+  },
+  {
+    "name": "BOLAS LUMINOSAS DIFERENTES TEXTURAS",
+    "reference": "",
     "occurrences": 1
   },
   {
@@ -360,8 +930,28 @@
     "occurrences": 4
   },
   {
-    "name": "BOMBA PARA COLUMNA DE",
-    "reference": "BURBUJAS",
+    "name": "Boles piscina",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "BOLES TRANSPARENTS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "BOLES TRANSPARENTS PER PISCINA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "BOMBA PARA COLUMNA DE BURBUJAS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "BOTONERA",
+    "reference": "",
     "occurrences": 1
   },
   {
@@ -375,9 +965,54 @@
     "occurrences": 1
   },
   {
+    "name": "BUBBLE TUBE BASE",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "BUBBLE TUBE BASE (Without the acrylic tube)",
+    "reference": "DOCB15DOIT-B",
+    "occurrences": 3
+  },
+  {
+    "name": "BUTACA BOMBAY AMB VIBRO",
+    "reference": "",
+    "occurrences": 3
+  },
+  {
+    "name": "BUTACA BOMBAY AMB VIRACIÓ",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "BUTACA BOMBAY CON VIBRACIÓN ACUSTICA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "BUTACA BOMBAY CON VIBRACIÓN ACÚSTICA",
+    "reference": "",
+    "occurrences": 3
+  },
+  {
     "name": "BUTACA BOMBAY CON VIBRACIÓN ACÚSTICA",
     "reference": "TNBMBV",
-    "occurrences": 17
+    "occurrences": 26
+  },
+  {
+    "name": "BUTACA BOMBAY VIBRO",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "BUTACA BOMBAY VIBRO ACÚSTICA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "BUTACA INDIVIDUAL DE ESPUMA CON TAPIZADO PVC",
+    "reference": "",
+    "occurrences": 1
   },
   {
     "name": "BUTACA INDIVIDUAL DE ESPUMA CON TAPIZADO PVC",
@@ -390,7 +1025,17 @@
     "occurrences": 2
   },
   {
-    "name": "Boles piscina",
+    "name": "BUTACA VIBRACIÓ",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "BUTACA VIBRO-ACUSTICA BOMBAY",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "BUTAQUES BOMBAY AMB VIBRACIÓ ACÚSTICA",
     "reference": "",
     "occurrences": 1
   },
@@ -400,13 +1045,68 @@
     "occurrences": 2
   },
   {
-    "name": "CAJA DE PEQUEÑO MATERIAL MULTISENSORIAL REACTIVO A LA LUZ NEGRA",
-    "reference": "HT747VD",
-    "occurrences": 11
+    "name": "CAIXA PETIT MATERIAL REACTIU A LA LLUM NEGRA",
+    "reference": "",
+    "occurrences": 3
   },
   {
-    "name": "CAJAS DE 700 BOLAS TRANSPARENTES PISCINA DE",
-    "reference": "BOLAS",
+    "name": "CAIXA PETIT MATERIAL REACTIU A LA LLUM UV",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "CAIXA PETIT MATERIAL UV",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "CAJA DE PEQUEÑO MATERIAL MULTISENSORIAL REACTIVO A LA LUZ NEGRA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "CAJA DE PEQUEÑO MATERIAL MULTISENSORIAL REACTIVO A LA LUZ NEGRA",
+    "reference": "HT747VD",
+    "occurrences": 13
+  },
+  {
+    "name": "CAJA DE PEQUEÑO MATERIAL REACTIVO A LA LUZ NEGRA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "CAJA DE PEQUEÑO MATERIAL REACTIVO UV",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "CAJA DE PEQUEÑO MATERIAL SENSORIAL REACTIVO A LA LUZ NEGRA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "CAJA PEQUEÑO MATERIAL REACTIVO A LA LUZ NEGRA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "CAJA PEQUEÑO MATERIAL REACTIVO A LA LUZ UV",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "CAJAS DE 700 BOLAS TRANSPARENTES PISCINA DE BOLAS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "CAMA DE AGUA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "CAMBIO ELECTRÓNICA COLUMNA DE BURBUJAS A DOIT LINK",
+    "reference": "",
     "occurrences": 1
   },
   {
@@ -415,23 +1115,138 @@
     "occurrences": 1
   },
   {
-    "name": "CANVI ELECTRÒNICA COLUMNA DE",
-    "reference": "BOMBOLLES",
+    "name": "CANVI ELECTRÒNICA COLUMNA DE BOMBOLLES",
+    "reference": "",
     "occurrences": 1
   },
   {
-    "name": "CARRO MULTISENSORIAL PORTATIL MOD. 1 CSDOIT1.0",
+    "name": "CANVIAR FONT DUTXA DE FIBRES PER FONT DOIT",
     "reference": "",
     "occurrences": 1
+  },
+  {
+    "name": "Canviar rf a raspberry",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "CARRO",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "CARRO Model 1 \"Exclusive for HopToys\"",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "CARRO Model 2 \"Exclusive for HopToys\"",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "CARRO MODEL 3 DE COMANDA ENDERRERIDA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "CARRO MULTISENSORIAL MOD. 3 ESPAÑOL",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "CARRO MULTISENSORIAL MODELO 1",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "CARRO MULTISENSORIAL PORTATIL MOD. 1",
+    "reference": "CSDOIT1.0",
+    "occurrences": 1
+  },
+  {
+    "name": "Carro Multisensorial Portátil - Modelo 1",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "Carro Multisensorial Portátil - Modelo 1",
+    "reference": "CSDOIT1.0",
+    "occurrences": 2
+  },
+  {
+    "name": "CARRO MULTISENSORIAL PORTÁTIL - MODELO 1",
+    "reference": "CSDOIT1.0EN",
+    "occurrences": 2
+  },
+  {
+    "name": "Carro Multisensorial Portátil - Modelo 1",
+    "reference": "CSDOIT1.0EN",
+    "occurrences": 8
+  },
+  {
+    "name": "Carro Multisensorial Portátil - Modelo 1 1,00 Carro Multisensorial Portátil - Modelo 1",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "CARRO MULTISENSORIAL PORTÁTIL - MODELO 2",
+    "reference": "CSDOIT2.0EN",
+    "occurrences": 1
+  },
+  {
+    "name": "Carro Multisensorial Portátil - Modelo 2",
+    "reference": "CSDOIT2.0EN",
+    "occurrences": 5
   },
   {
     "name": "CARRO MULTISENSORIAL PORTÁTIL - MODELO 2 CSDOIT2.0EN Este sistema portátil incluye: 1 Mazo de fibra óptica de 100 tiras y 2 metros de longitud con fuente de luz pasiva. 1 Tubo de burbujas de 1'6m de altura y 15cm de diámetro, superinteractivo. 1 Comu",
-    "reference": "",
+    "reference": "CSDOIT2.0EN",
     "occurrences": 1
+  },
+  {
+    "name": "CARRO MULTISENSORIAL PORTÁTIL - MODELO 3",
+    "reference": "CSDOIT3.0EN",
+    "occurrences": 3
+  },
+  {
+    "name": "Carro Multisensorial Portátil - Modelo 3",
+    "reference": "CSDOIT3.0EN",
+    "occurrences": 3
   },
   {
     "name": "CARRO MULTISENSORIAL PORTÁTIL - MODELO 4",
     "reference": "CSDOIT4",
+    "occurrences": 1
+  },
+  {
+    "name": "CARROS HOPTOYS MODEL 1",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "CARROS MODEL 1 HOPTOYS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "CARROS Model 3",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "CARROS PORTATILS MODEL 1",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "CARROS PORTATILS MODEL 2",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "CARROS PORTATILS MODEL 3",
+    "reference": "",
     "occurrences": 1
   },
   {
@@ -450,19 +1265,49 @@
     "occurrences": 1
   },
   {
-    "name": "CATIFA 2m",
-    "reference": "DIAMETRE",
+    "name": "CATIFA 150X150 REACTIVA A LA LLUM NEGRA",
+    "reference": "",
     "occurrences": 1
   },
   {
-    "name": "CHROME",
-    "reference": "CAST",
+    "name": "CATIFA 200X100 DE FIBRES",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "CATIFA 200X200 DE FIBRES",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "CATIFA 2m DIAMETRE",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "CATIFA FIBRES 2 X 1",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "CHANNEL AMPLIFIER SYSTEM 1",
+    "reference": "DOIT240VBT",
+    "occurrences": 1
+  },
+  {
+    "name": "CHROME CAST",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "CHROMECAST",
+    "reference": "",
     "occurrences": 1
   },
   {
     "name": "CILINDRO PARA VESTIBULACIÓN",
     "reference": "050021SP",
-    "occurrences": 1
+    "occurrences": 2
   },
   {
     "name": "CIRCULAR FIBRE OPTIC CEILING, DIAMETER 120 CMS",
@@ -475,8 +1320,33 @@
     "occurrences": 3
   },
   {
-    "name": "COLCHONETA 200X100X20 — SIN REFERENCIA",
-    "reference": "VISIBLE",
+    "name": "COLCHON AGUA",
+    "reference": "CA100",
+    "occurrences": 1
+  },
+  {
+    "name": "COLCHON DE AGUA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "COLCHONETA 200X100X20",
+    "reference": "01-COM261039-1-.PDF",
+    "occurrences": 1
+  },
+  {
+    "name": "COLCHONETA 200X100X5 Light green color",
+    "reference": "376C",
+    "occurrences": 1
+  },
+  {
+    "name": "COLCHÓN CAMA DE AGUA",
+    "reference": "CA140",
+    "occurrences": 1
+  },
+  {
+    "name": "COLCHÓN DE AGUA",
+    "reference": "",
     "occurrences": 1
   },
   {
@@ -487,7 +1357,22 @@
   {
     "name": "COLCHÓN DE AGUA CON TERMOSTATO DIM. 200X100",
     "reference": "CA100",
-    "occurrences": 24
+    "occurrences": 32
+  },
+  {
+    "name": "COLOUR BUTTONS COMMUNICATOR",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "COLOUR BUTTONS COMMUNICATOR DOIT",
+    "reference": "",
+    "occurrences": 4
+  },
+  {
+    "name": "COLOUR BUTTONS COMMUNICATOR DOIT",
+    "reference": "DO8PULS",
+    "occurrences": 15
   },
   {
     "name": "COLUMNA 15 NG",
@@ -495,23 +1380,163 @@
     "occurrences": 1
   },
   {
-    "name": "COLUMNA BOMBOLLES DOIT",
-    "reference": "15CM",
+    "name": "COLUMNA 15X180 SUPERINTERACTIVA DOIT",
+    "reference": "",
     "occurrences": 1
   },
   {
-    "name": "COLUMNA BOMBOLLES DOIT 15cm",
+    "name": "COLUMNA BOMBOLLES 15X180 DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "COLUMNA BOMBOLLES DOIT",
+    "reference": "",
+    "occurrences": 3
+  },
+  {
+    "name": "COLUMNA BOMBOLLES DOIT",
+    "reference": "DOITCB15",
+    "occurrences": 1
+  },
+  {
+    "name": "COLUMNA BOMBOLLES DOIT 15X180 INTERACTIVA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "COLUMNA BOMBOLLES DOIT INTERACTIVA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "COLUMNA BOMBOLLES INTERACTIVA DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "COLUMNA BOMBOLLES PASSIVA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "COLUMNA BOMBOLLES SUPERINTERACTIVA DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "COLUMNA BURBUJAS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "COLUMNA BURBUJAS 20 X 180",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "COLUMNA DE BOMBOLLES 15X180 DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "COLUMNA DE BOMBOLLES 15X180 DOIT AMB CONTROL DE BOMBOLLES",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "COLUMNA DE BOMBOLLES AMB BASE BAUHAUS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "COLUMNA DE BOMBOLLES DOIT",
+    "reference": "",
+    "occurrences": 9
+  },
+  {
+    "name": "COLUMNA DE BOMBOLLES DOIT INTERACTIVA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "COLUMNA DE BOMBOLLES INTERACTIVA DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "COLUMNA DE BOMBOLLES INTERACTIVA PEL PODI",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "COLUMNA DE BOMBOLLES PASSIVA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "COLUMNA DE BUDOCRBUJAS SUPERINTERACTIVA DOIT",
+    "reference": "DOCB15DOIT",
+    "occurrences": 1
+  },
+  {
+    "name": "COLUMNA DE BURBUJAS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "COLUMNA DE BURBUJAS 15X180 DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "COLUMNA DE BURBUJAS 20X180 SUPERINTERACTIVA DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "COLUMNA DE BURBUJAS DOIT",
+    "reference": "",
+    "occurrences": 4
+  },
+  {
+    "name": "COLUMNA DE BURBUJAS DOIT",
+    "reference": "CB15DOIT",
+    "occurrences": 1
+  },
+  {
+    "name": "COLUMNA DE BURBUJAS INTERACTIVA DOIT",
+    "reference": "",
+    "occurrences": 6
+  },
+  {
+    "name": "COLUMNA DE BURBUJAS PASIVA",
     "reference": "",
     "occurrences": 1
   },
   {
     "name": "COLUMNA DE BURBUJAS PASIVA 15X180CMS",
     "reference": "DOCB150P",
-    "occurrences": 6
+    "occurrences": 7
+  },
+  {
+    "name": "COLUMNA DE BURBUJAS SUPERINTERACTIVA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "COLUMNA DE BURBUJAS SUPERINTERACTIVA 15X180 DOIT",
+    "reference": "",
+    "occurrences": 1
   },
   {
     "name": "COLUMNA DE BURBUJAS SUPERINTERACTIVA DOIT",
-    "reference": "15X180CMS",
+    "reference": "",
+    "occurrences": 9
+  },
+  {
+    "name": "COLUMNA DE BURBUJAS SUPERINTERACTIVA DOIT",
+    "reference": "DOCB15DOIT",
     "occurrences": 1
   },
   {
@@ -522,7 +1547,7 @@
   {
     "name": "COLUMNA DE BURBUJAS SUPERINTERACTIVA DOIT 15X180CMS",
     "reference": "DOCB15DOIT",
-    "occurrences": 87
+    "occurrences": 106
   },
   {
     "name": "COLUMNA DE BURBUJAS SUPERINTERACTIVA DOIT 20X180",
@@ -530,19 +1555,164 @@
     "occurrences": 1
   },
   {
+    "name": "COLUMNA DE BURBUJAS SUPERINTERACTIVA DOIT 20X200",
+    "reference": "DOCB20DOIT",
+    "occurrences": 11
+  },
+  {
     "name": "COLUMNA DE BURBUJAS SUPERINTERACTIVA DOIT 30X180 CMS",
     "reference": "DOCB30DOIT",
     "occurrences": 2
   },
   {
+    "name": "COLUMNA DOIT",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "COLUMNA DOIT 15X180 INTERACTIVA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "COLUMNA DOIT BAUHAUS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "COLUMNA INTERACTIVA DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "COLUMNA PASIVA BAUHAUS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "COLUMNES DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "COMPLEMENT PER CONTROL DE BOMBOLLES DE LA COLUMNA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "COMPLEMENTO PARA EL CONTROL DE LAS BURBUJAS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "COMPLEMENTO PARA VIBRACIÓN ACÚSTICA EN PISCINA DE BOLAS VIBPB",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "COMUNICADOOR 8 POLSADORS DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "COMUNICADOR 8 COLORS",
+    "reference": "",
+    "occurrences": 4
+  },
+  {
+    "name": "COMUNICADOR 8 COLORS DOIT",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "COMUNICADOR 8 COLORS DOIT AMB CONTROL DE BOMBOLLES",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "COMUNICADOR 8 POLSADOR DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "COMUNICADOR 8 POLSADORS",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "COMUNICADOR 8 POLSADORS",
+    "reference": "DO8PULS",
+    "occurrences": 1
+  },
+  {
+    "name": "COMUNICADOR 8 POLSADORS DOIT",
+    "reference": "",
+    "occurrences": 12
+  },
+  {
+    "name": "COMUNICADOR 8 PULSADORES",
+    "reference": "",
+    "occurrences": 3
+  },
+  {
+    "name": "COMUNICADOR 8 PULSADORES DOIT",
+    "reference": "",
+    "occurrences": 5
+  },
+  {
+    "name": "COMUNICADOR 8 PULSADORS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "COMUNICADOR 8C",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "COMUNICADOR DE 8 COLORS DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "COMUNICADOR DE 8 POLSADORS DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "COMUNICADOR DE 8 PULSADORES DE COLORES DOIT",
+    "reference": "",
+    "occurrences": 8
+  },
+  {
     "name": "COMUNICADOR DE 8 PULSADORES DE COLORES DOIT",
     "reference": "DO8PULS",
-    "occurrences": 36
+    "occurrences": 65
+  },
+  {
+    "name": "COMUNICADOR DE 8 PULSADORES DE COLORES DOIT REPARADO",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "COMUNICADOR DE 8 PULSADORES DOIT",
+    "reference": "",
+    "occurrences": 3
   },
   {
     "name": "COMUNICADOR DE 9 PULSADORES DE COLORES DOIT",
     "reference": "DO8PULS",
-    "occurrences": 50
+    "occurrences": 51
+  },
+  {
+    "name": "COMUNICADORS DE 8 COLORS DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "COMUNICAOR 8 POLSADORS DOIT",
+    "reference": "",
+    "occurrences": 1
   },
   {
     "name": "CONCENTRADO DE LIQUIDO DE BURBUJAS PARA MAQUINA DE BURBUJAS",
@@ -550,7 +1720,22 @@
     "occurrences": 1
   },
   {
+    "name": "CONSOLA DE CONTROL PARA LA VIBRACIÓN DE LOS DISPOSITIVOS VIBRO-ACUSTICOS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
     "name": "CONSOLA NG",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "CONSOLAS DOIT LITE",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "CONTROL REMOTO CON 5 ENCHUFES",
     "reference": "",
     "occurrences": 1
   },
@@ -560,28 +1745,43 @@
     "occurrences": 1
   },
   {
-    "name": "CONTROL REMOTO PARA 5",
-    "reference": "ENCHUFES",
+    "name": "CONTROL REMOTO PARA 5 ENCHUFES",
+    "reference": "",
     "occurrences": 1
   },
   {
     "name": "CONTROL REMOTO PARA 5 ENCHUFES",
     "reference": "CR5E",
-    "occurrences": 12
+    "occurrences": 20
   },
   {
-    "name": "CORTINA CHINA DOIT",
-    "reference": "PASSIVA",
+    "name": "Controllable DOIT 5G Plug",
+    "reference": "ENDOIT5G",
+    "occurrences": 1
+  },
+  {
+    "name": "CORTINA CHINA DOIT PASSIVA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "CORTINA DE FIBRA OPTICA AMB FONT PASSIVA",
+    "reference": "",
     "occurrences": 1
   },
   {
     "name": "CORTINA DE FIBRA ÓPTICA INTERACTIVA",
     "reference": "DOFO4DOIT",
-    "occurrences": 2
+    "occurrences": 3
   },
   {
-    "name": "CORTINA EN DUES",
-    "reference": "PECES",
+    "name": "CORTINA DE FIBRAS PASIVA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "CORTINA EN DUES PECES",
+    "reference": "",
     "occurrences": 1
   },
   {
@@ -596,7 +1796,7 @@
   },
   {
     "name": "COUVERCLE PODIUM",
-    "reference": "100X100",
+    "reference": "",
     "occurrences": 1
   },
   {
@@ -605,34 +1805,19 @@
     "occurrences": 4
   },
   {
-    "name": "Carro Multisensorial Portátil - Modelo 1",
-    "reference": "",
-    "occurrences": 1
-  },
-  {
-    "name": "Carro Multisensorial Portátil - Modelo 1 CSDOIT1.0EN",
-    "reference": "",
-    "occurrences": 5
-  },
-  {
-    "name": "Carro Multisensorial Portátil - Modelo 2 CSDOIT2.0EN",
-    "reference": "",
-    "occurrences": 4
-  },
-  {
-    "name": "Carro Multisensorial Portátil - Modelo 3 CSDOIT3.0EN",
-    "reference": "",
-    "occurrences": 4
-  },
-  {
-    "name": "Controllable DOIT 5G Plug",
-    "reference": "ENDOIT5G",
-    "occurrences": 1
-  },
-  {
     "name": "DADO DE COLORES + VOICE RECORDER DOIT DE 30X30CMS",
     "reference": "DODADOIT30VR",
     "occurrences": 1
+  },
+  {
+    "name": "DADO DE COLORES DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "DADO DE COLORES DOIT CON VOZ",
+    "reference": "",
+    "occurrences": 3
   },
   {
     "name": "DADO DE COLORES DOIT DE 30X30CMS",
@@ -642,21 +1827,146 @@
   {
     "name": "DADO DE COLORES DOIT DE 30X30CMS CON VOZ",
     "reference": "DODADOIT30V",
-    "occurrences": 9
+    "occurrences": 11
+  },
+  {
+    "name": "DADO DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "DADO DOIT 30X30X30 CON VOZ",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "DADO DOIT CON VOICE RECORDER",
+    "reference": "DDOIT30VR",
+    "occurrences": 1
+  },
+  {
+    "name": "DAU",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "DAU COLORS DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "DAU DE COLORS 30X30 DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "DAU DE COLORS DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "DAU DOIT",
+    "reference": "",
+    "occurrences": 4
+  },
+  {
+    "name": "DAUS DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "DESPLAÇAMENT DEL OPERARI",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "Desplaçament operari",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "DESPLAÇAMENT TÈCNIC",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "DIFUSOR AROAMTERAPIA INTERACTIU DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "DIFUSOR AROMA INTERACTIU DOIT",
+    "reference": "DOAADOIT",
+    "occurrences": 1
+  },
+  {
+    "name": "DIFUSOR AROMATERAPIA BASIC",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "DIFUSOR AROMATERAPIA BASICO",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "DIFUSOR AROMATERAPIA BÀSICA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "DIFUSOR AROMATERAPIA DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "DIFUSOR AROMATERAPIA DOIT INTERACTIU",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "DIFUSOR AROMATERAPIA SUPER INTERACTIU",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "DIFUSOR AROMATERAPIA SUPERINTERACTIU DOIT",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "DIFUSOR DE AROMATERAPIA SUPERINTERACTIVO DOIT",
+    "reference": "",
+    "occurrences": 4
   },
   {
     "name": "DIFUSOR DE AROMATERAPIA SUPERINTERACTIVO DOIT",
     "reference": "DOAADOIT",
-    "occurrences": 23
+    "occurrences": 32
   },
   {
-    "name": "DIPOSIT",
-    "reference": "AIGUA",
+    "name": "DIPOSIT AIGUA",
+    "reference": "",
     "occurrences": 1
   },
   {
-    "name": "DOBAS1500QV PLYNTH 100X100X50",
-    "reference": "VIBRATION",
+    "name": "DOFFDOITEN S DOIT LIGHTSOURCE FOR FIBREOPTIC",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "DOFFDOITEN S DOIT LIGHTSOURCE FOR FIBREOPTIC D 1",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "DOIT CONSOLE",
+    "reference": "",
+    "occurrences": 7
+  },
+  {
+    "name": "DOIT CONSOLE",
+    "reference": "DOCONS1",
     "occurrences": 1
   },
   {
@@ -666,27 +1976,37 @@
   },
   {
     "name": "DOIT CONSOLE LITE",
+    "reference": "",
+    "occurrences": 4
+  },
+  {
+    "name": "DOIT CONSOLE LITE",
     "reference": "CDLITE",
-    "occurrences": 6
+    "occurrences": 10
+  },
+  {
+    "name": "DOIT CONSOLE SISTEMA DE CONTROL DE ENTORNO Y ACTIVIDADES DOIT",
+    "reference": "",
+    "occurrences": 4
   },
   {
     "name": "DOIT CONSOLE SISTEMA DE CONTROL DE ENTORNO Y ACTIVIDADES DOIT",
     "reference": "DOCONS1",
-    "occurrences": 65
+    "occurrences": 107
   },
   {
-    "name": "DOIT CONTROLLABLE PLUG",
-    "reference": "ENDOIT1",
-    "occurrences": 4
-  },
-  {
-    "name": "DOIT CONTROLLABLE PLUG ENDOIT1 - endolls españols",
+    "name": "DOIT CONSOLE SISTEMA DE CONTROL DE ENTORNO Y ACTIVIDADES DOIT DOIT CONSOLE SISTEMA DE CONTROL DE ENTORNO Y ACTIVIDADES DOIT",
     "reference": "",
     "occurrences": 1
   },
   {
-    "name": "DOIT DOTS",
-    "reference": "WALL",
+    "name": "DOIT CONTROLLABLE PLUG",
+    "reference": "ENDOIT1",
+    "occurrences": 6
+  },
+  {
+    "name": "DOIT DOTS WALL",
+    "reference": "",
     "occurrences": 1
   },
   {
@@ -700,14 +2020,39 @@
     "occurrences": 1
   },
   {
+    "name": "DOIT LIGHTSOURCE FOR FIBREOPTIC",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "DOIT LINK ADAPTER",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
     "name": "DOIT OPTICAL FIBER SHOWER 60x60x250",
     "reference": "DOFO6P",
-    "occurrences": 3
+    "occurrences": 4
+  },
+  {
+    "name": "DOIT PROXIMITY",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "DOIT SENSORY CONSOLE",
+    "reference": "",
+    "occurrences": 1
   },
   {
     "name": "DOIT SENSORY CONSOLE, ENVIRONMENT MULTISENSORY CONTROL",
     "reference": "DOCONS1",
     "occurrences": 4
+  },
+  {
+    "name": "DOIT SUPERINTERACTIVE BUBBLE TUBE DOITLink",
+    "reference": "",
+    "occurrences": 1
   },
   {
     "name": "DOIT VOICE RECORDER",
@@ -717,17 +2062,32 @@
   {
     "name": "DOIT VOICE SWITCH",
     "reference": "DOITVS",
-    "occurrences": 4
+    "occurrences": 6
+  },
+  {
+    "name": "DOIT VOICE SWITCH DOITLink",
+    "reference": "",
+    "occurrences": 1
   },
   {
     "name": "DOIT VOICE SWITCH DOITLink",
     "reference": "DOITVSEN",
-    "occurrences": 3
+    "occurrences": 2
+  },
+  {
+    "name": "DOIT WALL WASHER",
+    "reference": "",
+    "occurrences": 5
   },
   {
     "name": "DOIT WALL WASHER",
     "reference": "DOITWW2M",
-    "occurrences": 33
+    "occurrences": 36
+  },
+  {
+    "name": "DOIT WALL WASHER 2M",
+    "reference": "DOITWW2M",
+    "occurrences": 1
   },
   {
     "name": "DOIT WALL WASHER 2M LENGTH",
@@ -735,33 +2095,148 @@
     "occurrences": 2
   },
   {
+    "name": "DOIT WALL WASHER CONTROLABLE AMB COMANDAMENT REMOT NO DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
     "name": "DOIT WALL WASHER DE 2M",
-    "reference": "DOITWW2M",
+    "reference": "",
     "occurrences": 2
   },
   {
-    "name": "DOIT WALL WASHER — DOITWW2M preguntar mida cable",
+    "name": "DOIT WALL WASHER DE 2M",
+    "reference": "DOITWW2M",
+    "occurrences": 3
+  },
+  {
+    "name": "DOIT WALLWASHER 1X2M + ELECTRONICA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "DOITINF TUNEL INTERACTIVO DOIT",
     "reference": "",
     "occurrences": 1
   },
   {
     "name": "DOITLink LIGHTSOURCE FOR FIBRE OPTIC DEVICES",
+    "reference": "",
+    "occurrences": 4
+  },
+  {
+    "name": "DOITLink LIGHTSOURCE FOR FIBRE OPTIC DEVICES",
     "reference": "DOFFDOIT",
-    "occurrences": 14
+    "occurrences": 16
+  },
+  {
+    "name": "DOITPLAY",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "DUCHA DE FIBRA OPTICA PASIVA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "DUCHA DE FIBRA ÓPTICA DOIT",
+    "reference": "",
+    "occurrences": 4
   },
   {
     "name": "DUCHA DE FIBRA ÓPTICA DOIT 60x60x250",
     "reference": "DOFO6P",
-    "occurrences": 5
+    "occurrences": 8
+  },
+  {
+    "name": "DUCHA DE FIBRA ÓPTICA SUPERINTERACTIVA DOIT",
+    "reference": "",
+    "occurrences": 1
   },
   {
     "name": "DUCHA DE FIBRA ÓPTICA SUPERINTERACTIVA DOIT 60x60x250",
     "reference": "DOFO6DOIT",
-    "occurrences": 9
+    "occurrences": 10
   },
   {
-    "name": "ELCTRONICA PARA PSICINA DE",
-    "reference": "BOLAS",
+    "name": "DUCHA DE FIBRAS PASIVA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "DUCHA DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "DUTXA DE FIBRES",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "DUTXA DE FIBRES 60X60 PASSIVA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "DUTXA DE FIBRES INTERACTIVA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "DUTXA DE FIBRES INTERACTIVA DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "DUTXA DE FIBRES SUPERINTERACTIVA DOIT",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "DUTXA DOIT",
+    "reference": "",
+    "occurrences": 3
+  },
+  {
+    "name": "DUTXA FIBRES INTERACTIVA DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "DUTXA FIBRES PASSIVA",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "DUTXA INTERACTIVA DOIT DE FIBRES",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "DUTXA SUPERINTERACTIVA DOIT",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "ELCTRONICA PARA PSICINA DE BOLAS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "Electronica + led strips",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "ELECTRONICA PARA PISCINA DE BOLAS CON 3 TIRAS DE LED DE 1,2M",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "ELECTRONICA PISCINA DE BOLES 1,2 X 1,2",
+    "reference": "",
     "occurrences": 1
   },
   {
@@ -770,9 +2245,134 @@
     "occurrences": 1
   },
   {
+    "name": "Enchufe con mando remoto",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "Enchufe controlable DOIT",
+    "reference": "",
+    "occurrences": 6
+  },
+  {
+    "name": "Enchufe controlable DOIT",
+    "reference": "ENDOIT1",
+    "occurrences": 81
+  },
+  {
+    "name": "Enchufe controlable DOIT ****pastilla****",
+    "reference": "ENDOIT1",
+    "occurrences": 2
+  },
+  {
+    "name": "Enchufe controlable DOIT ***pastilla***",
+    "reference": "ENDOIT1",
+    "occurrences": 1
+  },
+  {
     "name": "ENCHUFE CONTROLABLE DOIT 5G",
     "reference": "ENDOIT5G",
     "occurrences": 14
+  },
+  {
+    "name": "ENCHUFE DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "Enchufe PASTILLAS controlable DOIT",
+    "reference": "ENDOIT1",
+    "occurrences": 1
+  },
+  {
+    "name": "ENCHUFES CONTROLABLES DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "ENCHUFES DOIT",
+    "reference": "",
+    "occurrences": 3
+  },
+  {
+    "name": "ENDOLLS",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "ENDOLLS CONTROLABLES DOIT",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "ENDOLLS DOIT",
+    "reference": "",
+    "occurrences": 16
+  },
+  {
+    "name": "ENDOLLS DOIT",
+    "reference": "ENDOIT1",
+    "occurrences": 1
+  },
+  {
+    "name": "ENDOLLS DOIT (PASTILLES??????)",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "ENDOLLS DOIT TIPO USA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "ENVIAR Almohadillas sensoriales",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "Enviar comunicador, no funciona el seu",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "ENVIAR Espejo madera perspectivas",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "ENVIAR lletres",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "Enviar material tou PODI",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "ENVIAR Material Tou.",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "Enviar TAP + Trafo 12v 5A",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "Enviar tub de diametre 20, pel trencat.",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "ENVIAR TUBS AROMATERAPIA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "ESCALA",
+    "reference": "",
+    "occurrences": 1
   },
   {
     "name": "ESCALA COLORS NG",
@@ -780,8 +2380,23 @@
     "occurrences": 1
   },
   {
-    "name": "ESCALA DE",
-    "reference": "COLORS",
+    "name": "ESCALA D'ESPUMA",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "ESCALA DE COLORS",
+    "reference": "",
+    "occurrences": 6
+  },
+  {
+    "name": "ESCALA DE COLORS DOIT",
+    "reference": "",
+    "occurrences": 4
+  },
+  {
+    "name": "ESCALER A DE ESPUMA",
+    "reference": "",
     "occurrences": 1
   },
   {
@@ -797,16 +2412,81 @@
   {
     "name": "ESCALERA DE 4 ESCALONES 95X60X60",
     "reference": "T3082",
+    "occurrences": 2
+  },
+  {
+    "name": "ESCALERA DE COLORES",
+    "reference": "",
     "occurrences": 1
+  },
+  {
+    "name": "ESCALERA DE COLORES DOIT",
+    "reference": "ESC1",
+    "occurrences": 1
+  },
+  {
+    "name": "ESCALERA DE COLORES DOIT LINK",
+    "reference": "",
+    "occurrences": 2
   },
   {
     "name": "ESCALERA DE COLORES DOITLink",
     "reference": "ESC1",
-    "occurrences": 22
+    "occurrences": 37
+  },
+  {
+    "name": "ESCALERA DE ESPUMA 60x50x50 CON RECUBRIMIENTO DE CAUCHO NATURAL",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "ESCALES DE COLORS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "ESPEJO",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "ESPEJO 140X80 ESPEJO ACRÍLICO DE ALTO IMPACTO",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "ESPEJO ACRILICO",
+    "reference": "",
+    "occurrences": 4
+  },
+  {
+    "name": "ESPEJO ACRÍLICO",
+    "reference": "",
+    "occurrences": 1
   },
   {
     "name": "ESPEJO ACRÍLICO 41 CM",
     "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "ESPEJO ACRÍLICO DE ALTO IMPACTO SOBRE TABLERO DE MADERA",
+    "reference": "",
+    "occurrences": 4
+  },
+  {
+    "name": "ESPEJO ACRÍLICO DE ALTO IMPACTO SOBRE TABLERO DE MADERA 140x100",
+    "reference": "DOES141",
+    "occurrences": 76
+  },
+  {
+    "name": "ESPEJO ACRÍLICO DE ALTO IMPACTO SOBRE TABLERO DE MADERA 140x100 DOES141 (suport a darrere perquè passen tubs de calefacció per la paret)",
+    "reference": "DOES141",
+    "occurrences": 1
+  },
+  {
+    "name": "ESPEJO ACRÍLICO DE ALTO IMPACTO SOBRE TABLERO DE MADERA 140x122",
+    "reference": "DOES141",
     "occurrences": 1
   },
   {
@@ -820,21 +2500,6 @@
     "occurrences": 1
   },
   {
-    "name": "ESPEJO ACRÍLICO DE ALTO IMPACTO SOBRE TABLERO DE MADERA 140x100",
-    "reference": "DOES141",
-    "occurrences": 52
-  },
-  {
-    "name": "ESPEJO ACRÍLICO DE ALTO IMPACTO SOBRE TABLERO DE MADERA 140x100 DOES141 (suport a darrere perquè passen tubs de calefacció per la paret)",
-    "reference": "",
-    "occurrences": 1
-  },
-  {
-    "name": "ESPEJO ACRÍLICO DE ALTO IMPACTO SOBRE TABLERO DE MADERA 140x122",
-    "reference": "DOES141",
-    "occurrences": 1
-  },
-  {
     "name": "ESPEJO ACRÍLICO DE ALTO IMPACTO SOBRE TABLERO DE MADERA 150x100",
     "reference": "DOES141",
     "occurrences": 1
@@ -845,7 +2510,7 @@
     "occurrences": 1
   },
   {
-    "name": "ESPEJO ACRÍLICO DE ALTO IMPACTO SOBRE TABLERO DE MADERA 200x100",
+    "name": "ESPEJO ACRÍLICO DE ALTO IMPACTO SOBRE TABLERO DE MADERA ESPEJO DE 115CMS DE ALTO Y 186 CMS DE ANCHO SOBRE TABLERO DE MADERA DE 120X186 CMS",
     "reference": "",
     "occurrences": 1
   },
@@ -860,28 +2525,93 @@
     "occurrences": 1
   },
   {
+    "name": "ESPEJOS",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "ESPEJOS ACRILICO",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "ESPEJOS ACRILICOS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "ESTRUCTURA DE ACERO PARA VESTIBULACIÓN",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
     "name": "ESTRUCTURA DE ACERO PARA VESTIBULACIÓN",
     "reference": "DOITVEST",
     "occurrences": 1
   },
   {
-    "name": "Enchufe PASTILLAS controlable DOIT",
-    "reference": "ENDOIT1",
+    "name": "Estructura fusta + mate. tou.",
+    "reference": "",
     "occurrences": 1
   },
   {
-    "name": "Enchufe controlable DOIT",
-    "reference": "ENDOIT1",
-    "occurrences": 69
+    "name": "Fallo Escala Colors (2h)",
+    "reference": "",
+    "occurrences": 1
   },
   {
-    "name": "Enchufe controlable DOIT ****pastilla****",
-    "reference": "ENDOIT1",
+    "name": "FALTA FEIX PEL CARRO",
+    "reference": "",
+    "occurrences": 3
+  },
+  {
+    "name": "FALTA LASER STARS CARRO",
+    "reference": "",
     "occurrences": 2
   },
   {
-    "name": "Enchufe controlable DOIT ***pastilla***",
-    "reference": "ENDOIT1",
+    "name": "falta material tou 3,00 BASE 100X50X50 TAPIZADA ***COLOR LILA7439C*****",
+    "reference": "DOBAS1552",
+    "occurrences": 1
+  },
+  {
+    "name": "FALTA MATERIAL TOU BASE",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "FALTA MATERIAL TOU DE LA BASE",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "FALTA OLIS",
+    "reference": "",
+    "occurrences": 3
+  },
+  {
+    "name": "FALTA UN CARRO MODEL 1",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "FALTEN 2 ENDOLLS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "FALTEN LES BOLES",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "Falten tapissats base columna",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "Falten tubs interiors Aromaterapia",
+    "reference": "",
     "occurrences": 1
   },
   {
@@ -890,8 +2620,58 @@
     "occurrences": 1
   },
   {
-    "name": "FER UNA CAIXA AMB KIT DE RECANVIS DE COLUMNA DE BOMBOLES, BOMBA, PLACA LEDS, EV",
-    "reference": "ELECTRONICA",
+    "name": "FEIX DE FIBRES",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "FEIX DE FIBRES 100 X 2M",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "FEIX DE FIBRES DE",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "FEIX FIBRES",
+    "reference": "",
+    "occurrences": 14
+  },
+  {
+    "name": "FEIX FIBRES 100 TIRES 2M",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "FEIX FIBRES 100X 2M",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "FEIX FIBRES 150 TIRES 2 M",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "FEIX FIBRES 150 TIRES I 2M",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "FEIX FIBRES 200 TIRES 2M",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "FEIXOS FIBRES 100 X 2M",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "FER UNA CAIXA AMB KIT DE RECANVIS DE COLUMNA DE BOMBOLES, BOMBA, PLACA LEDS, EV, ELECTRONICA",
+    "reference": "",
     "occurrences": 1
   },
   {
@@ -900,9 +2680,24 @@
     "occurrences": 3
   },
   {
+    "name": "FIBER OPTIC CEILLING PASSIVE",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
     "name": "FIBER OPTIC CURTAIN",
     "reference": "DOFO4P",
-    "occurrences": 13
+    "occurrences": 11
+  },
+  {
+    "name": "FIBER OPTIC CURTAIN",
+    "reference": "DOFO4PEN",
+    "occurrences": 4
+  },
+  {
+    "name": "FIBER OPTIC CURTAIN PASSIVE",
+    "reference": "",
+    "occurrences": 4
   },
   {
     "name": "FIBER OPTIC HARNESS 200 STRINGS 2 METERS LENGTH",
@@ -915,19 +2710,39 @@
     "occurrences": 2
   },
   {
+    "name": "FIBRE OPTIC CEILING INTERACTIVE",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "FIBRE OPTIC SHOWER 60X60X180 PASSIVE",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
     "name": "FIBRE OPTIC STAR CEILING DOIT 200X100 CMS",
     "reference": "DOFO2P",
     "occurrences": 1
   },
   {
-    "name": "FITXA MUNTATGE KIT",
-    "reference": "HOPTOYS",
+    "name": "Fibres",
+    "reference": "3MX100F",
+    "occurrences": 1
+  },
+  {
+    "name": "FLPASEN PASSIVE FIBRE OPTIC LIGHTSOURCE",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "FOAM WALL PROTECCTION IN WAVE SHAPE 85X50X5 CMS",
+    "reference": "",
     "occurrences": 1
   },
   {
     "name": "FOAM WALL PROTECCTION IN WAVE SHAPE 85X50X5 CMS",
     "reference": "DOPB85",
-    "occurrences": 1
+    "occurrences": 3
   },
   {
     "name": "FOCO DE COLORES DOIT INTERACTIVO",
@@ -936,13 +2751,73 @@
   },
   {
     "name": "FOCO DE COLORES DOIT INTERACTIVO DOFPDOIT ******* 2 focos ***** i ******2 fonts******",
+    "reference": "DOFPDOIT",
+    "occurrences": 1
+  },
+  {
+    "name": "FOCO SPOT CON FILTRO PARA BOLA DE ESPEJOS",
     "reference": "",
     "occurrences": 1
   },
   {
     "name": "FOCO SPOT PARA BOLA DE ESPEJOS CON FILTRO DE COLORES",
     "reference": "DOFB1",
-    "occurrences": 11
+    "occurrences": 18
+  },
+  {
+    "name": "FOCOS DE COLORS DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "FOCOS DOIT",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "FOCOS DOIT INTERACTIUS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "FOCOS DOITLink elements fibra óptica",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "FOCOS LED DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "FONT DE LLUM PASSIVA PER FIBRES",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "FONT DE LLUM PER ALFOMBRA DE FIBRES DOIT INTERACTIVA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "FONT DE LLUM PER CONECTAR FIBRES DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "FONT DE LLUM PER FIBRES DOIT",
+    "reference": "",
+    "occurrences": 4
+  },
+  {
+    "name": "FONT DOIT PER FIBRES",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "FONT DOIT PER LA DUTXA QUE JA ESTA MUNTADA",
+    "reference": "",
+    "occurrences": 1
   },
   {
     "name": "FONT FIBRES DOIT",
@@ -950,14 +2825,79 @@
     "occurrences": 2
   },
   {
-    "name": "FORMACIÓ ESTIMULACIÓ",
-    "reference": "MULTISENSORIAL",
+    "name": "FONT FIBRES PER AL PODI RECTANGULAR",
+    "reference": "",
     "occurrences": 1
   },
   {
-    "name": "FUENTE DE LUZ PARA CONECTAR",
-    "reference": "ELEMENTOS",
+    "name": "FONT INTERACTIVA DOIT PER FIBRES",
+    "reference": "",
     "occurrences": 1
+  },
+  {
+    "name": "FONT LLUM DOIT PER FIBRES",
+    "reference": "",
+    "occurrences": 4
+  },
+  {
+    "name": "FONT LLUM PASSIVA PER FIBRES",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "FONT LLUM PER FIBRES DOIT",
+    "reference": "",
+    "occurrences": 4
+  },
+  {
+    "name": "FONT PASSIVA FIBRES",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "FONT PER FIBRES DOIT",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "FONTS DE LLUM DOIT PER FIBRES",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "FONTS DE LLUM PASSIVA (1 PER SOSTRE I 1 PER FIBRES)",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "FONTS DE LLUM PASSIVA PER FIBRES",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "FORMACIÓ ESTIMULACIÓ MULTISENSORIAL",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "FUENTE DE LUZ DOIT PARA FIBRAS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "FUENTE DE LUZ INTERACTIVA DOIT PARA FIBRAS",
+    "reference": "DOFFDOIT",
+    "occurrences": 1
+  },
+  {
+    "name": "FUENTE DE LUZ PARA CONECTAR ELEMENTOS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "FUENTE DE LUZ PARA CONECTAR ELEMENTOS DE FIBRA DOIT",
+    "reference": "",
+    "occurrences": 2
   },
   {
     "name": "FUENTE DE LUZ PARA CONECTAR ELEMENTOS DE FIBRA OPTICA DOIT",
@@ -966,18 +2906,58 @@
   },
   {
     "name": "FUENTE DE LUZ PARA CONECTAR ELEMENTOS DE FIBRA ÓPTICA DOIT",
-    "reference": "DOFFDOIT",
-    "occurrences": 76
+    "reference": "",
+    "occurrences": 4
   },
   {
-    "name": "FUENTE DE LUZ PARA CONECTAR ELEMENTOS DE FIBRA ÓPTICA DOIT -- DOFFDOIT",
+    "name": "FUENTE DE LUZ PARA CONECTAR ELEMENTOS DE FIBRA ÓPTICA DOIT",
     "reference": "DOFFDOIT",
+    "occurrences": 127
+  },
+  {
+    "name": "FUENTE DE LUZ PARA CONECTAR ELEMENTOS DE FIBRA ÓPTICA DOIT -",
+    "reference": "DOFFDOIT",
+    "occurrences": 1
+  },
+  {
+    "name": "FUENTE DE LUZ PARA CONECTAR ELEMENTOS DE FIBRA ÓPTICA DOIT DOFFDOI",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "FUENTE DE LUZ PARA ELEMENTOS DE FIBRA ÓPTICA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "FUENTE DE LUZ PARA FIBRAS DOIT",
+    "reference": "",
+    "occurrences": 3
+  },
+  {
+    "name": "FUENTE DE LUZ PASIVA PARA ELEMENTOS DE FIBRA ÓPTICA",
+    "reference": "",
     "occurrences": 1
   },
   {
     "name": "FUENTE DE LUZ PASIVA PARA ELEMENTOS DE FIBRA ÓPTICA",
     "reference": "FLPAS",
-    "occurrences": 6
+    "occurrences": 8
+  },
+  {
+    "name": "FUENTE DE LUZ PASSIVA PARA FIBRA OPTICA CON BOTÓN DE STOP PARA EL COLOR",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "FUENTE DOIT PARA FIBRAS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "FUENTE LUZ PASIVA PARA FIBRAS",
+    "reference": "",
+    "occurrences": 1
   },
   {
     "name": "FUNDA PARA CAMA DE AGUA CON CREMALLERA 200X100",
@@ -985,9 +2965,29 @@
     "occurrences": 1
   },
   {
-    "name": "GOOGLE",
-    "reference": "CHROMECAST",
+    "name": "FUNTE DE LUZ PASIVA",
+    "reference": "FLPAS",
     "occurrences": 1
+  },
+  {
+    "name": "GOOGLE CHROMECAST",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "GUANTES SENSORIALES",
+    "reference": "",
+    "occurrences": 9
+  },
+  {
+    "name": "GUANTES SENSORIALES 1,00 GUANTES SENSORIALES",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "HIGH IMPACT ACRYLIC MIRROR ON WOODEN PANEL",
+    "reference": "",
+    "occurrences": 2
   },
   {
     "name": "HIGH IMPACT ACRYLIC MIRROR ON WOODEN PANEL 140x100",
@@ -1001,12 +3001,27 @@
   },
   {
     "name": "HIGH IMPACT ACRYLIC MIRROR ON WOODEN PANEL 140x80",
+    "reference": "DOES1408",
+    "occurrences": 1
+  },
+  {
+    "name": "HIGH IMPACT ACRYLIC MIRROR ON WOODEN PANEL 140x80",
     "reference": "DOES141",
-    "occurrences": 4
+    "occurrences": 5
   },
   {
     "name": "HIGH IMPACT ACRYLIC MIRROR ON WOODEN PANEL 140x90",
     "reference": "DOES141",
+    "occurrences": 1
+  },
+  {
+    "name": "Infinity Corner BLACK AND WHITE COLORS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "Infinity Corner MULTICOLORED 6 COLORS",
+    "reference": "",
     "occurrences": 1
   },
   {
@@ -1015,14 +3030,14 @@
     "occurrences": 1
   },
   {
-    "name": "INSTALLATION AND TRANSPORT",
-    "reference": "MONT",
+    "name": "INST. ELECTRICA",
+    "reference": "",
     "occurrences": 1
   },
   {
-    "name": "INSTAL·LACIÓ FRONTALS LLIT D'AIGUA",
+    "name": "INTERACTIVE BASE FOR BUBBLE TUBE",
     "reference": "",
-    "occurrences": 1
+    "occurrences": 2
   },
   {
     "name": "INTERACTIVE BASE FOR BUBBLE TUBE 15x180",
@@ -1030,18 +3045,18 @@
     "occurrences": 7
   },
   {
+    "name": "INTERACTIVE DOIT CUBE",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
     "name": "INTERACTIVE DOIT CUBE 30X30X30 DOITLink",
     "reference": "DODADOIT30",
-    "occurrences": 9
+    "occurrences": 10
   },
   {
-    "name": "INTERACTIVE PROJECTOR FUN FLOOR MOBILE 3EN1 SIN",
-    "reference": "SOPORTE",
-    "occurrences": 2
-  },
-  {
-    "name": "INTERFACE",
-    "reference": "TACTILE",
+    "name": "INTERACTIVE PROJECTOR FUN FLOOR MOBILE 3EN1 SIN SOPORTE",
+    "reference": "3EN1",
     "occurrences": 2
   },
   {
@@ -1050,19 +3065,44 @@
     "occurrences": 1
   },
   {
-    "name": "Infinity Corner BLACK AND WHITE",
-    "reference": "COLORS",
-    "occurrences": 1
-  },
-  {
-    "name": "Infinity Corner MULTICOLORED 6",
-    "reference": "COLORS",
-    "occurrences": 1
+    "name": "INTERFACE TACTILE",
+    "reference": "",
+    "occurrences": 2
   },
   {
     "name": "JBL CONTROL ONE | 2-WAY, SPEAKERS",
     "reference": "JBLONEPRO",
     "occurrences": 2
+  },
+  {
+    "name": "KIT 6 ESENCIAS",
+    "reference": "",
+    "occurrences": 3
+  },
+  {
+    "name": "KIT 6 ESENCIAS AROMATERAPIA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "KIT 6 ESENCIAS PARA AROMATERAPIA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "KIT 6 ESENCIES AROMATERAPIA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "KIT 6 OLIS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "KIT AUDITIVO",
+    "reference": "",
+    "occurrences": 1
   },
   {
     "name": "KIT DE 4 BARRAS REACTIVAS A LA LUZ NEGRA (UV)",
@@ -1072,27 +3112,47 @@
   {
     "name": "KIT DE 6 ESENCIAS PARA AROMATERAPIA",
     "reference": "DOITAAK1",
-    "occurrences": 25
+    "occurrences": 27
   },
   {
-    "name": "KIT DE ACTIVIDADES",
-    "reference": "AUDITIVAS",
-    "occurrences": 4
+    "name": "KIT DE 6 ESENCIAS PARA AROMATERAPIA DOITAAK",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "KIT DE ACTIVIDADES AUDITIVAS",
+    "reference": "",
+    "occurrences": 6
   },
   {
     "name": "KIT DE ACTIVIDADES TÁCTILES",
     "reference": "",
-    "occurrences": 3
+    "occurrences": 5
+  },
+  {
+    "name": "KIT DE ESENCIAS AROMATERAPIA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "KIT DE INICIACIÓN A LA AROMATERAPIA",
+    "reference": "",
+    "occurrences": 11
   },
   {
     "name": "KIT DE SUSPENSIÓN Y AJUSTE DE ALTURA PARA VESTIBULACIÓN",
     "reference": "100014SP",
-    "occurrences": 4
+    "occurrences": 5
+  },
+  {
+    "name": "KIT DOIT PARA EL CONTROL DE ILUMINACIÓN LED DEL TECHO",
+    "reference": "KITPB14DOIT",
+    "occurrences": 1
   },
   {
     "name": "KIT DOIT PISCINA DE BOLAS 1,4 X 1,4",
     "reference": "KITPB14DOIT",
-    "occurrences": 10
+    "occurrences": 13
   },
   {
     "name": "KIT DOIT PISCINA IP65 DE BOLAS 1,4 X 1,4",
@@ -1100,9 +3160,44 @@
     "occurrences": 1
   },
   {
+    "name": "KIT DOIT PISCINA SENSE LEDS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "KIT ESENCIES 6",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "KIT ESENCIES 6U",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "KIT MOTRICIDAD FINA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "KIT MOTRICIDAD GRUESA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "KIT PISCINA DE BOLAS SENSE LEDS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
     "name": "KIT SENSORIAL MASAJE",
     "reference": "KM967VD",
-    "occurrences": 2
+    "occurrences": 13
+  },
+  {
+    "name": "KIT TACTIL",
+    "reference": "",
+    "occurrences": 1
   },
   {
     "name": "KIT TÁCTIL",
@@ -1112,6 +3207,36 @@
   {
     "name": "KIT VACIADO COLUMNAS Y CAMA DE AGUA",
     "reference": "KITVAC",
+    "occurrences": 11
+  },
+  {
+    "name": "KIT VACIADO COLUMNAS Y CAMA DE AGUA KITVA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "KITS CIRCULOS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "LAMPARA AROMATERAPIA BÁSICA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "LAMPARA DIFUSOR AROMATERAPIA BASICA",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "LAMPARA DIFUSOR DE AROMATERAPIA BÁSICO",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "LAMPARAS AROMATERAPIA BÁSICAS",
+    "reference": "",
     "occurrences": 1
   },
   {
@@ -1120,8 +3245,23 @@
     "occurrences": 1
   },
   {
+    "name": "laserstars",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
     "name": "LECTOR DVD",
     "reference": "TDDVPMK770",
+    "occurrences": 1
+  },
+  {
+    "name": "LED UV",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "LED WALL WASHER DE 2M",
+    "reference": "",
     "occurrences": 1
   },
   {
@@ -1130,29 +3270,134 @@
     "occurrences": 1
   },
   {
+    "name": "LETRAS TRANSPARENTES DE COLORES",
+    "reference": "CM41157",
+    "occurrences": 11
+  },
+  {
+    "name": "LLIT AIGUA",
+    "reference": "",
+    "occurrences": 5
+  },
+  {
+    "name": "LLIT D'AIGUA",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "llosetes sensorials",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "LLUIMNARIA 18X3W UV",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "llum negra UV de un metre",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "LLUMINARIA LED",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "LLUMINARIA LED 18X3W UV",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "LLUMINARIA LED UV",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "LLUMINARIES LED UV",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "LLUMINARIES UV",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "LOSETA TACTIL FINA DE",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "LOSETA TACTIL GRUESA DE",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
     "name": "LOSETA TÁCTIL DE TEXTURAS GRUESAS",
     "reference": "DOITLTG",
-    "occurrences": 3
+    "occurrences": 4
   },
   {
     "name": "LOSETA TÁCTIL TEXTURAS FINAS",
     "reference": "DOITLTF",
-    "occurrences": 3
+    "occurrences": 4
+  },
+  {
+    "name": "LOSETAS LIQUIDAS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "losetas liquidas",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "LUMINARIA LED",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "LUMINARIA LED 18X3W UV",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "LUMINARIA LED UV",
+    "reference": "",
+    "occurrences": 11
   },
   {
     "name": "LUMINARIA LED UV",
     "reference": "AST6030915",
-    "occurrences": 1
+    "occurrences": 2
+  },
+  {
+    "name": "LUMINARIA LED UV 18X3W LED (UV)",
+    "reference": "",
+    "occurrences": 5
   },
   {
     "name": "LUMINARIA LED UV 18X3W LED (UV)",
     "reference": "AST6030915",
-    "occurrences": 37
+    "occurrences": 55
+  },
+  {
+    "name": "LUMINARIA UV LED",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "Luminaria UV LED 18W",
+    "reference": "",
+    "occurrences": 1
   },
   {
     "name": "LÁMPARA DIFUSOR DE AROMATERAPIA BÁSICA",
     "reference": "DOITAAZP3",
-    "occurrences": 24
+    "occurrences": 38
   },
   {
     "name": "LÁMPARA OPTI 250",
@@ -1160,29 +3405,154 @@
     "occurrences": 1
   },
   {
-    "name": "MANTA LASTRADA",
-    "reference": "ML141136",
-    "occurrences": 9
+    "name": "Línea Carro Multisensorial Portátil - Modelo 3",
+    "reference": "CSDOIT3.0EN",
+    "occurrences": 1
   },
   {
-    "name": "MARCO DE ESPUMA PARA COLCHÓN DE AGUA 200X100 211020010",
+    "name": "MANDO CONTROL REMOTO PARA 6 DISPOSITIVOS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "Mando grua XTRA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "MANTA LASTRADA",
+    "reference": "ML141136",
+    "occurrences": 10
+  },
+  {
+    "name": "MANTA LASTRADA 140X100 Y 3,",
+    "reference": "6KG",
+    "occurrences": 1
+  },
+  {
+    "name": "MANTA LASTRADA 140X110",
+    "reference": "3.6KG",
+    "occurrences": 3
+  },
+  {
+    "name": "MANTA LASTRADA 140X110 3,",
+    "reference": "6KG",
+    "occurrences": 1
+  },
+  {
+    "name": "MANTAS LASTRADAS 140X100 - 3,",
+    "reference": "6KG",
+    "occurrences": 1
+  },
+  {
+    "name": "MANTENIMENT SALA GUTTMAN",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "MANTENIMIENTO PREVENTIVO BÁSICO",
+    "reference": "MANTPREV2",
+    "occurrences": 3
+  },
+  {
+    "name": "MANTENIMIENTO PREVENTIVO BÁSICO MULTISENSORIAL",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "MANTENIMIENTO PREVENTIVO CARRO MULTISENSORIAL MANT-CARR",
+    "reference": "",
+    "occurrences": 3
+  },
+  {
+    "name": "MANTENIMIENTO PREVENTIVO SALA MULTISENSORIAL COMPLETO MANTPREV",
+    "reference": "",
+    "occurrences": 16
+  },
+  {
+    "name": "MARCO DE ESPUMA PARA COLCHÓN DE AGUA 200X100",
+    "reference": "211020010",
+    "occurrences": 1
+  },
+  {
+    "name": "MATALÀS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "MATALÀS AIGUA",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "MATALÀS AIGUA",
+    "reference": "CA100",
+    "occurrences": 1
+  },
+  {
+    "name": "MATALÀS LLIT",
     "reference": "",
     "occurrences": 1
   },
   {
     "name": "MATERIAL ELÉCTRICO INSTEL Cable HDMI Cable Audio",
+    "reference": "INSTEL",
+    "occurrences": 1
+  },
+  {
+    "name": "MATERIAL TOU",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "Material Tou a mida",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "Material tou base circular 15",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "MATERIAL TOU PODI + MODUL EQUIP AUDIO",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "MATERIAL TOU Podi de 100 X 50 X 25",
     "reference": "",
     "occurrences": 1
   },
   {
     "name": "MAZO DE FIBRA ÓPTICA 100 TIRAS DE LUZ 2 METROS LONG",
-    "reference": "FOS12",
-    "occurrences": 8
+    "reference": "",
+    "occurrences": 2
   },
   {
-    "name": "MAZO DE FIBRA ÓPTICA 200 TIRAS DE LUZ 2 METROS LONG",
+    "name": "MAZO DE FIBRA ÓPTICA 100 TIRAS DE LUZ 2 METROS LONG.",
+    "reference": "",
+    "occurrences": 3
+  },
+  {
+    "name": "MAZO DE FIBRA ÓPTICA 100 TIRAS DE LUZ 2 METROS LONG.",
+    "reference": "FOS12",
+    "occurrences": 12
+  },
+  {
+    "name": "MAZO DE FIBRA ÓPTICA 200 TIRAS DE LUZ 2 METROS LONG.",
     "reference": "FOS22",
-    "occurrences": 58
+    "occurrences": 77
+  },
+  {
+    "name": "MAZO DE FIBRA ÓPTICA DE 200 TIRAS DE LUZ Y 3 METROS DE LONGITUD",
+    "reference": "FOS23",
+    "occurrences": 1
+  },
+  {
+    "name": "MAZO DE FIBRA ÓPTICA DE 200 TIRAS DE LUZ Y 3 METROS DE LONGITUD",
+    "reference": "FOS3",
+    "occurrences": 1
   },
   {
     "name": "MAZO DE FIBRA ÓPTICA DE 200 TIRAS DE LUZ Y 3 METROS DE LONGITUD",
@@ -1192,11 +3562,56 @@
   {
     "name": "MAZO DE FIBRA ÓPTICA DE 200 TIRAS Y 3 METROS DE LONGITUD",
     "reference": "FOS23",
-    "occurrences": 3
+    "occurrences": 6
+  },
+  {
+    "name": "MAZO DE FIBRAS",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "MAZO DE FIBRAS 200 FIBRAS 2M",
+    "reference": "",
+    "occurrences": 1
   },
   {
     "name": "MAZO DE FIBRAS UV 100 TIRAS X 3M",
     "reference": "FOS13UVEN",
+    "occurrences": 1
+  },
+  {
+    "name": "MAZO FIBRA 100 X 2 M",
+    "reference": "FOS12",
+    "occurrences": 1
+  },
+  {
+    "name": "MAZO FIBRA 200 TIRAS 3 M",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "MAZO FIBRAS",
+    "reference": "",
+    "occurrences": 5
+  },
+  {
+    "name": "MAZO FIBRAS 200 TIRAS 3M",
+    "reference": "FOS23",
+    "occurrences": 1
+  },
+  {
+    "name": "MAZO FIBRAS OPTICAS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "MESA DE LUZ RECTANGULAR TAMAÑO A2",
+    "reference": "CM73048",
+    "occurrences": 10
+  },
+  {
+    "name": "MESA DE LUZ RECTANGULAR TAMAÑO A2 1,00 MESA DE LUZ RECTANGULAR TAMAÑO A2",
+    "reference": "",
     "occurrences": 1
   },
   {
@@ -1205,13 +3620,128 @@
     "occurrences": 1
   },
   {
-    "name": "MICRÓFONO DE MANO INALÁMBRICO",
-    "reference": "SCMV100",
-    "occurrences": 4
+    "name": "MICRO DE MÀ INALAMBRIC",
+    "reference": "",
+    "occurrences": 1
   },
   {
-    "name": "MODULO DE ESPUMA 100X60X50 CM Los módulos van unidos con velcro para que no se puedan separar",
+    "name": "MICROFONO DE MANO",
     "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "MICRÒFON DE MÀ INALAMBRIC",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "MICRÓFONO DE MANO INALÁMBRICO",
+    "reference": "SCMV100",
+    "occurrences": 6
+  },
+  {
+    "name": "MIRALL",
+    "reference": "",
+    "occurrences": 5
+  },
+  {
+    "name": "MIRALL",
+    "reference": "DOES141",
+    "occurrences": 1
+  },
+  {
+    "name": "MIRALLS",
+    "reference": "",
+    "occurrences": 10
+  },
+  {
+    "name": "MIRALLS 140X80 CMS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "MIRALLS ACRILICS",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "MIRALLS ACRILICS 140X100 AMB TAULER DE FUSTA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "MIRALLS collats a Podi",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "MIRCROFON DE MÀ INALAMBRIC",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "MIROR",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "MIRROR",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "MOBLE AMPLI",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "MODUL BAIX PER ALLOTJAR AUDIO I CONSOLA",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "MODUL BAIX PER ALLOTJAR EQUIP D'AUDIO I CONSOLA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "MODULO BAJO PARA ALOJAR EL EQUIPO DE AUDIO Y CONSOLA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "MODULO DE ESPUMA 100X60X50 CM Los módulos van unidos con velcro para que no se puedan separar.",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "MOTOR BOLA 1 RPM",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "MOURE LLIT BASE AIGUA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "moure llit segons plano",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "MÒDUL BAIX PER ALLOTJAR AUDIO I CONSOLA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "MÓDULO BAJO PARA ALOJAR EL EQUIPO DE AUDIO Y CONSOLA MODAUDIO",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "MÓDULO CABEZAL PARA CAMA DE AGUA DIMENSIONES 100X135X3 TAPIZADO EN LOS LATERALES EN AZUL CLARO",
+    "reference": "2905C",
     "occurrences": 1
   },
   {
@@ -1220,24 +3750,84 @@
     "occurrences": 1
   },
   {
+    "name": "NUMEROS ACRÍLICOS TRANSPARENTES DE COLORES",
+    "reference": "CM75116",
+    "occurrences": 11
+  },
+  {
+    "name": "Ojo, la dutxa ja esta muntada. Només cal posar FontDoit",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "OPTI100",
+    "reference": "OPTI100",
+    "occurrences": 1
+  },
+  {
+    "name": "Pack 50 presas de escalada iniciación para niños",
+    "reference": "PREROC50",
+    "occurrences": 1
+  },
+  {
+    "name": "PACK 6 LOSETAS LIQUIDAS DE COLORES",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "Pack de 6 losetas liquidas de colores de 50x50 cms",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
     "name": "PACK DE 6 LOSETAS LÍQUIDAS DE COLORES DE 50x50 CM",
     "reference": "AM438315",
     "occurrences": 7
   },
   {
-    "name": "PACK TARJETAS PARA DOIT PLAY",
-    "reference": "ANIMALES",
+    "name": "PACK MATERIAL SENSORIAL TACTIL",
+    "reference": "",
     "occurrences": 1
   },
   {
-    "name": "PALES CON TACOS DE",
-    "reference": "MADERA",
+    "name": "PACK TARJETAS PARA DOIT PLAY",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PALES CON TACOS DE MADERA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PANEL DE CIRCULOS DE COLORES QUE REACCIONA A LA VOZ",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PANEL DE ESPEJO ACRÍLICO GIGANTE CON 9 ESFERAS",
+    "reference": "",
     "occurrences": 1
   },
   {
     "name": "PANEL DE LUZ Y VOZ",
     "reference": "TC1DOIT",
     "occurrences": 5
+  },
+  {
+    "name": "PANEL DE LUZ Y VOZ (TEMPESTA DE COLORS)",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PANEL TACTIL 12 TEXTURAS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PANEL TÁCTIL",
+    "reference": "",
+    "occurrences": 10
   },
   {
     "name": "PANEL TÁCTIL 70X40",
@@ -1250,6 +3840,11 @@
     "occurrences": 3
   },
   {
+    "name": "PANEL TÁCTIL 70X50 Con diferentes texturas y toques artísticos, ideal para llamar la atención del usuario a través de sus colores contrastados y sus diferentes texturas.",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
     "name": "PANEL TÁCTIL CON LUCES, ELEMENTOS SONOROS Y LOOPINGS",
     "reference": "PATA3",
     "occurrences": 5
@@ -1257,11 +3852,36 @@
   {
     "name": "PANEL TÚNEL INFINITO",
     "reference": "DOITIF1",
-    "occurrences": 10
+    "occurrences": 12
   },
   {
-    "name": "PANTALLA DE PROYECCIÓN 2.98X2.20",
+    "name": "PANTALL TACTIL 43\"",
     "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PANTALLA 43\" ACTIVITATS COGNITIVES",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PANTALLA DE PROJECCIÓ ELÈCTRICA",
+    "reference": "BC100",
+    "occurrences": 1
+  },
+  {
+    "name": "PANTALLA DE PROJECCIÓ ELÉCTRICA (2,64X1,49)",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PANTALLA DE PROJECCIÓN ELÈCTRICA DE 112\"",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PANTALLA DE PROYECCIÓN",
+    "reference": "2.98X2.20",
     "occurrences": 1
   },
   {
@@ -1275,14 +3895,69 @@
     "occurrences": 1
   },
   {
+    "name": "PANTALLA TACTIL",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PANTALLA TACTIL 43\" DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
     "name": "PANTALLA TACTIL 43\" NG",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PANTALLA TACTIL DE 43\" DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PANTALLA TACTIL DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PANTALLA TACTIL DOIT",
+    "reference": "DOITPANTAC43",
+    "occurrences": 1
+  },
+  {
+    "name": "PANTALLA TV TACTIL + SOPORTE",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PANTALLA TÀCTIL 42\" COGNITIVA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PANTALLA TÀCTIL DE 43\"",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "PANTALLA TÁCTIL DE 42\" PARA LAS ACTIVIDADES DE LA DOIT CONSOLE",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PANTALLA TÁCTIL DE 43\" PARA LAS ACTIVIDADES DE LA DOIT CONSOLE",
     "reference": "",
     "occurrences": 1
   },
   {
     "name": "PANTALLA TÁCTIL DE 43\" PARA LAS ACTIVIDADES DE LA DOIT CONSOLE",
     "reference": "DOITPANTAC43",
-    "occurrences": 13
+    "occurrences": 16
+  },
+  {
+    "name": "PANTALLA TÁCTIL DE 43\" PER ACTIVITATS DE LA CONSOLA DOIT",
+    "reference": "",
+    "occurrences": 1
   },
   {
     "name": "PASILLO DE SENSACIONES PLANTARES 12 BASES Y 10 TEXTURAS",
@@ -1290,9 +3965,24 @@
     "occurrences": 1
   },
   {
+    "name": "PASILLO SENSACIONES PLANTARES AMAYA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PASSIVE BASE FOR BUBBLE TUBE",
+    "reference": "",
+    "occurrences": 3
+  },
+  {
     "name": "PASSIVE BASE FOR BUBBLE TUBE 15x180",
     "reference": "DOCB150PEN-B",
-    "occurrences": 13
+    "occurrences": 15
+  },
+  {
+    "name": "PASSIVE BUBBLE TUBE 20X180",
+    "reference": "DOCCB200P",
+    "occurrences": 1
   },
   {
     "name": "PASSIVE FIBER OPTIC CURTAIN",
@@ -1301,8 +3991,13 @@
   },
   {
     "name": "PASSIVE FIBRE OPTIC LIGHTSOURCE",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "PASSIVE FIBRE OPTIC LIGHTSOURCE",
     "reference": "FLPAS",
-    "occurrences": 15
+    "occurrences": 17
   },
   {
     "name": "PASSIVE FIBRE OPTIC STAR CEILING 6 TILES",
@@ -1312,6 +4007,41 @@
   {
     "name": "PASSIVE STAR CEILING WITH MIRROR 4 UNITS",
     "reference": "DOFOPM4",
+    "occurrences": 1
+  },
+  {
+    "name": "PECES TATAMI EN GOMA EVA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "Pilota sensorial Rosa",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PISCINA BOLAS DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PISCINA BOLAS INTERACTIVA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PISCINA BOLES 160X160X40 INTERACTIVA DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PISCINA BOLES INTERACTIVA 180X180X70 AMB VIBRACIÓ",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "PISCINA DE BOLAS",
+    "reference": "",
     "occurrences": 1
   },
   {
@@ -1325,6 +4055,11 @@
     "occurrences": 1
   },
   {
+    "name": "PISCINA DE BOLAS INTERACTIVA DOIT",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
     "name": "PISCINA DE BOLAS INTERACTIVA DOIT 145X145X72",
     "reference": "PB145DOIT",
     "occurrences": 2
@@ -1332,7 +4067,12 @@
   {
     "name": "PISCINA DE BOLAS INTERACTIVA DOIT 160X160X40",
     "reference": "PB906DOIT",
-    "occurrences": 6
+    "occurrences": 8
+  },
+  {
+    "name": "PISCINA DE BOLAS INTERACTIVA DOIT AMB VIBRACIÓ",
+    "reference": "",
+    "occurrences": 1
   },
   {
     "name": "PISCINA DE BOLAS INTERACTIVA DOITLink 180X180X70",
@@ -1340,17 +4080,32 @@
     "occurrences": 2
   },
   {
-    "name": "PISCINA DE BOLAS INTERACTIVA DOITLink 200X200X60 ESQUINERA PB809DOITLink",
-    "reference": "",
+    "name": "PISCINA DE BOLAS INTERACTIVA DOITLink 200X200X60 ESQUINERA",
+    "reference": "PB809DOITLINK",
     "occurrences": 1
   },
   {
     "name": "PISCINA DE BOLAS INTERACTIVA DOITLink 200X200X60 PB809DOITLink VIBRO-ACÚSTICA",
+    "reference": "PB809DOITLINK",
+    "occurrences": 1
+  },
+  {
+    "name": "PISCINA DE BOLAS INTERACTIVA PARA ESQUINA 200X200X30 CURVA",
+    "reference": "PB88XDOITLINK",
+    "occurrences": 1
+  },
+  {
+    "name": "PISCINA DE BOLAS INTERACTIVA PARA ESQUINA 200X200X60 CURVA CON VIBRACIÓN",
     "reference": "",
     "occurrences": 1
   },
   {
-    "name": "PISCINA DE BOLAS INTERACTIVA PARA ESQUINA 200X200X30 CURVA PB88XDoitlink",
+    "name": "PISCINA DE BOLES ILUMINADA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PISCINA DE BOLES INTERACTIVA DOIT",
     "reference": "",
     "occurrences": 1
   },
@@ -1365,8 +4120,28 @@
     "occurrences": 1
   },
   {
+    "name": "PLATAFORMA VESTIBULAR",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
     "name": "PLATAFORMA VESTIBULAR CUADRADA 78X78X150",
     "reference": "SP0081",
+    "occurrences": 2
+  },
+  {
+    "name": "PLYNT",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "PLYNTH",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PLYNTH 100X100X50 VIBRATION",
+    "reference": "DOBAS1500QV",
     "occurrences": 1
   },
   {
@@ -1375,8 +4150,8 @@
     "occurrences": 3
   },
   {
-    "name": "PLYNTH 100X50X50 DOBAS1552*** falta colchoneta de 100x45x5",
-    "reference": "",
+    "name": "PLYNTH 100X50X50 DOBAS1552*** falta colchoneta de",
+    "reference": "DOBAS1552",
     "occurrences": 1
   },
   {
@@ -1405,13 +4180,13 @@
     "occurrences": 3
   },
   {
-    "name": "PLYNTH 90X90X40",
-    "reference": "INTERACTIVE",
+    "name": "PLYNTH 90X90X40 INTERACTIVE",
+    "reference": "",
     "occurrences": 1
   },
   {
     "name": "PLYNTH WITH VIBRATION",
-    "reference": "100X50X50",
+    "reference": "",
     "occurrences": 1
   },
   {
@@ -1420,12 +4195,32 @@
     "occurrences": 1
   },
   {
-    "name": "PODI 90x90 AMB",
-    "reference": "PULSADORS",
+    "name": "PODI 100X50X50",
+    "reference": "DOBAS1552EN",
     "occurrences": 1
   },
   {
-    "name": "PODI SEMICIRCULAR AMB FORAT 15cm",
+    "name": "PODI 90x90 AMB PULSADORS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "podi fusta circular 75",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PODI SEMICIRCULAR",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PODI SEMICIRCULAR AMB FORAT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PODIS 100X50X50 (UN AMB FIBRES)",
     "reference": "",
     "occurrences": 1
   },
@@ -1435,23 +4230,153 @@
     "occurrences": 2
   },
   {
-    "name": "PORTABLE MULTISENSORY SYSTEM - MODEL 4 Exclusive for Hoptoys CSDOIT4 - Hoptoys",
-    "reference": "",
-    "occurrences": 2
-  },
-  {
     "name": "PORTABLE MULTISENSORY SYSTEM - MODEL 4 LITE",
     "reference": "CSDOIT4LITE",
     "occurrences": 1
   },
   {
-    "name": "PORTABLE MULTISENSORY SYSTEM - MODEL 4 LITE exclusive for Hoptoys CSDOIT4LITE-Hoptoys",
+    "name": "PORTABLE MULTISENSORY SYSTEM - MODEL 4 LITE exclusive for Hoptoys",
+    "reference": "CSDOIT4LITE-HOPTOYS",
+    "occurrences": 2
+  },
+  {
+    "name": "Portable Multisensory System 1",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "Portable Multisensory System 1",
+    "reference": "CSDOIT1.0EN",
+    "occurrences": 1
+  },
+  {
+    "name": "Portable Multisensory System 2",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "Portable Multisensory System 2",
+    "reference": "CSDOIT2.0EN",
+    "occurrences": 1
+  },
+  {
+    "name": "Portable Multisensory System 3",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "Portable Multisensory System 3",
+    "reference": "CSDOIT3.0EN",
+    "occurrences": 1
+  },
+  {
+    "name": "Portable Multisensory System Model 1 \"Exclusive for HopToys\"",
+    "reference": "CSDOIT1.0HT",
+    "occurrences": 9
+  },
+  {
+    "name": "Portable Multisensory System Model 1 \"Exclusive for HopToys\" 4,00 Portable Multisensory System Model 1 \"Exclusive for HopToys\"",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "Portable Multisensory System Model 2 \"Exclusive for HopToys",
     "reference": "",
     "occurrences": 2
   },
   {
-    "name": "PROJECTOR",
-    "reference": "ULTRAANGULAR",
+    "name": "Portable Multisensory System Model 2 \"Exclusive for HopToys\"",
+    "reference": "CSDOIT2.0HP",
+    "occurrences": 7
+  },
+  {
+    "name": "Portable Multisensory System Model 3",
+    "reference": "CSDOIT3.0EN",
+    "occurrences": 1
+  },
+  {
+    "name": "Portable Multisensory System Model 3 \"Exclusive for HopToys\"",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "Portable Multisensory System Model 3 \"Exclusive for HopToys\"",
+    "reference": "CSDOIT3.0HT",
+    "occurrences": 11
+  },
+  {
+    "name": "Portable Multisensory System Model 3 \"Exclusive for HopToys\" CSDOIT3.0HT This Portable m",
+    "reference": "CSDOIT3.0HT",
+    "occurrences": 1
+  },
+  {
+    "name": "PORTABLE MULTISENSORY SYSTEM — MODEL 4 Exclusive for Hoptoys",
+    "reference": "CSDOIT4",
+    "occurrences": 2
+  },
+  {
+    "name": "PORTAR CONSOLA AMB ANTENA WIFI.",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PRODUCTE 1 - BASE COLUMNA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PRODUCTE 2",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PRODUCTE 3",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PROJECTOR GA.",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PROJECTOR GRAN ANGULAR",
+    "reference": "",
+    "occurrences": 10
+  },
+  {
+    "name": "PROJECTOR GRAN ANGULAR",
+    "reference": "DOITPROGA",
+    "occurrences": 1
+  },
+  {
+    "name": "PROJECTOR GRAN ANGULAR BENQ",
+    "reference": "",
+    "occurrences": 5
+  },
+  {
+    "name": "PROJECTOR INTERACTIU DOIT AIR",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PROJECTOR LASER STARS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PROJECTOR LED LASER STARS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PROJECTOR LED LASERSTARS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PROJECTOR OPTI",
+    "reference": "100LED",
     "occurrences": 1
   },
   {
@@ -1460,18 +4385,93 @@
     "occurrences": 1
   },
   {
-    "name": "PROJECTORS GRAN",
-    "reference": "ANG",
+    "name": "PROJECTOR ULTRAANGULAR",
+    "reference": "",
     "occurrences": 1
+  },
+  {
+    "name": "PROJECTOR VIDEO",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PROJECTORS GRAN ANG",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PROTECCIONES PARA PARED EN FORMA DE OLAS",
+    "reference": "",
+    "occurrences": 2
   },
   {
     "name": "PROTECCIONES PARA PARED EN FORMA DE OLAS 85X50X5CMS",
     "reference": "DOPB85",
-    "occurrences": 19
+    "occurrences": 20
   },
   {
-    "name": "PROTECCIONS PARET",
-    "reference": "ONES",
+    "name": "PROTECCIONES PARED",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PROTECCIONES PER PARED EN FORMA D'ONADES",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PROTECCIONS DE PARED EN FORMA D'ONADA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PROTECCIONS EN FORMA D'ONADA",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "PROTECCIONS PARED EN FORMA D ONADES",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PROTECCIONS PARED EN FORMA D'ONADA",
+    "reference": "DOPB85",
+    "occurrences": 1
+  },
+  {
+    "name": "PROTECCIONS PARED EN FORMA D'ONADES",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PROTECCIONS PARET ONES",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PROTECCIONS PER PARED EN FORMA D'ONADA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PROTECCIÓN PARED A MEDIDA PARA MODULO DE MADERA DIMENSIONES 95X85 COLOR AZUL CLARO",
+    "reference": "2905C",
+    "occurrences": 1
+  },
+  {
+    "name": "PROYCTOR OPT 100 LED",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PROYECTOR BENQ (no gran angular)",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PROYECTOR BENQ GRAN ANGULAR + SOPORTE",
+    "reference": "",
     "occurrences": 1
   },
   {
@@ -1485,24 +4485,49 @@
     "occurrences": 6
   },
   {
-    "name": "PROYECTOR GRAN ANGULAR DE CORTA",
-    "reference": "DISTANCIA",
-    "occurrences": 1
+    "name": "PROYECTOR GRAN ANGULAR",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "PROYECTOR GRAN ANGULAR DE CORTA DISTANCIA",
+    "reference": "",
+    "occurrences": 8
   },
   {
     "name": "PROYECTOR GRAN ANGULAR DE CORTA DISTANCIA",
     "reference": "DOITPROGA",
-    "occurrences": 35
+    "occurrences": 50
+  },
+  {
+    "name": "PROYECTOR INTERACTIVO DOIT AIR",
+    "reference": "",
+    "occurrences": 1
   },
   {
     "name": "PROYECTOR INTERACTIVO DOIT AIR",
     "reference": "DOITAIR",
-    "occurrences": 2
+    "occurrences": 4
+  },
+  {
+    "name": "PROYECTOR LASER STARS",
+    "reference": "",
+    "occurrences": 1
   },
   {
     "name": "PROYECTOR LASER STARS",
     "reference": "HR-A1",
     "occurrences": 8
+  },
+  {
+    "name": "PROYECTOR LASER STARS BLUETOOTH",
+    "reference": "HR-A1",
+    "occurrences": 9
+  },
+  {
+    "name": "PROYECTOR LED LASER STARS",
+    "reference": "",
+    "occurrences": 1
   },
   {
     "name": "PROYECTOR OPTI 250 LED",
@@ -1512,11 +4537,26 @@
   {
     "name": "PROYECTOR OPTI AURA",
     "reference": "OPTIAURA",
-    "occurrences": 8
+    "occurrences": 11
   },
   {
     "name": "PROYECTOR SOLAR 100 LED",
     "reference": "PS100LED",
+    "occurrences": 4
+  },
+  {
+    "name": "PUFF",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "PUFF 120X20 VIBRO",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "PUFF 120X20 VIBROACUSTIC",
+    "reference": "",
     "occurrences": 1
   },
   {
@@ -1530,8 +4570,23 @@
     "occurrences": 1
   },
   {
-    "name": "PUFF SOFA AMB",
-    "reference": "VIBRO",
+    "name": "PUFF SOFA AMB VIBRO",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PUFF SOFA GIGANTE",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PUFF SOFA VIBRACION",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PUFF SOFÁ CON VIBRACIÓN",
+    "reference": "",
     "occurrences": 1
   },
   {
@@ -1550,34 +4605,24 @@
     "occurrences": 4
   },
   {
+    "name": "PUFF VIBRO",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PUFF VIBROACUSTICO",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "PUFF VIBROACÚSTIC",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
     "name": "PUFF VIBROACÚSTICO 120CMS DE DIÁMETRO Y 20 CMS DE ALTURA",
     "reference": "DOPU357",
     "occurrences": 6
-  },
-  {
-    "name": "Portable Multisensory System Model 1 \"Exclusive for HopToys\" CSDOIT1.0HT",
-    "reference": "",
-    "occurrences": 7
-  },
-  {
-    "name": "Portable Multisensory System Model 2 \"Exclusive for HopToys\" CSDOIT2.0HP",
-    "reference": "",
-    "occurrences": 6
-  },
-  {
-    "name": "Portable Multisensory System Model 3 \"Exclusive for HopToys\" CSDOIT3.0HT",
-    "reference": "",
-    "occurrences": 9
-  },
-  {
-    "name": "Portable Multisensory System Model 3 \"Exclusive for HopToys\" CSDOIT3.0HT This Portable m",
-    "reference": "",
-    "occurrences": 1
-  },
-  {
-    "name": "Portable Multisensory System Model 3 CSDOIT3.0EN",
-    "reference": "",
-    "occurrences": 1
   },
   {
     "name": "RECAMBIO (ANTIRETORNO)",
@@ -1585,14 +4630,14 @@
     "occurrences": 1
   },
   {
-    "name": "RECAMBIO LED PARA FUENTE DE",
-    "reference": "LUZ",
+    "name": "RECAMBIO LED PARA FUENTE DE LUZ",
+    "reference": "",
     "occurrences": 1
   },
   {
     "name": "RELOJES LIQUIDOS SENSORIALES",
     "reference": "CM92106",
-    "occurrences": 1
+    "occurrences": 12
   },
   {
     "name": "REMOTE CONTROL FOR 5 DEVICES",
@@ -1600,8 +4645,13 @@
     "occurrences": 1
   },
   {
-    "name": "REPARACIÓN COMUNICADOR DE OCHO",
-    "reference": "PULSADORES",
+    "name": "REPARACIÓN COLUMNA DE BURBUJAS, FER COLUMNA NOVA SENSE BOMBA PQ S APROFITA LA QUE JA TENEN",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "REPARACIÓN COMUNICADOR DE OCHO PULSADORES",
+    "reference": "",
     "occurrences": 1
   },
   {
@@ -1610,13 +4660,13 @@
     "occurrences": 1
   },
   {
-    "name": "REPARACIÓN DEL TRANSFORMADOR DE LA COLUMNA DE",
-    "reference": "BURBUJAS",
+    "name": "REPARACIÓN DEL TRANSFORMADOR DE LA COLUMNA DE BURBUJAS",
+    "reference": "",
     "occurrences": 1
   },
   {
-    "name": "REPARACIÓN FUENTE DE",
-    "reference": "LUZ",
+    "name": "REPARACIÓN FUENTE DE LUZ",
+    "reference": "",
     "occurrences": 1
   },
   {
@@ -1625,29 +4675,94 @@
     "occurrences": 4
   },
   {
+    "name": "RODA OPTI DIBUIXOS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "RODA OPTI LIQUID",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
     "name": "ROTADOR DE 360 GRADOS PARA VESTIBULADOR",
     "reference": "VESTROT360",
     "occurrences": 2
   },
   {
-    "name": "RUEDA DE EFECTOS DE DIBUJOS PARA PROYECTOR",
-    "reference": "OPTI",
+    "name": "RPI per TV Tactil",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "RUEDA DE EFECTOS DE DIBUJOS PARA PROYECTOR OPTI",
+    "reference": "",
     "occurrences": 1
   },
   {
     "name": "RUEDA DE EFECTOS DE DIBUJOS PARA PROYECTOR OPTI",
     "reference": "OPTIEW",
-    "occurrences": 6
+    "occurrences": 9
   },
   {
     "name": "RUEDA DE EFECTOS LIQUIDOS OPTI",
     "reference": "OPTILW",
+    "occurrences": 5
+  },
+  {
+    "name": "RUEDAS DE EFECTOS DE DIBUJOS OPTI",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "S 8 COLOUR BUTTONS COMMUNICATOR",
+    "reference": "DO8PULSEN",
+    "occurrences": 1
+  },
+  {
+    "name": "S 8 COLOUR BUTTONS COMMUNICATOR D 1",
+    "reference": "DO8PULSEN",
+    "occurrences": 1
+  },
+  {
+    "name": "S BUBBLE TUBE BASE",
+    "reference": "DOCB150PEN-B",
+    "occurrences": 1
+  },
+  {
+    "name": "S BUBBLE TUBE BASE",
+    "reference": "DOCB15DOITEN",
+    "occurrences": 1
+  },
+  {
+    "name": "S BUBBLE TUBE BASE - INTERACTIVE 1",
+    "reference": "DOCB15DOITEN",
+    "occurrences": 1
+  },
+  {
+    "name": "S FIBER OPTIC CURTAIN",
+    "reference": "DOFO4PEN",
+    "occurrences": 1
+  },
+  {
+    "name": "S TUBE-",
+    "reference": "DOCB150PEN-T",
     "occurrences": 2
   },
   {
     "name": "SACO DE SUSPENSIÓN PARA VESTIBULACIÓN",
     "reference": "030021SP",
     "occurrences": 6
+  },
+  {
+    "name": "sacs BOLAS PISCINA DE BOLAS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "SAMSUNG TAB 10 inch TABLET WITH DOIT REMOTE CONTROL APP",
+    "reference": "",
+    "occurrences": 1
   },
   {
     "name": "SAMSUNG TAB 10\" TABLET WITH DOIT REMOTE CONTROL APP",
@@ -1660,14 +4775,24 @@
     "occurrences": 1
   },
   {
+    "name": "SELECTOR DE ALTAVOCES",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
     "name": "SENSORY PACKAGE",
-    "reference": "CHRISTMAS",
-    "occurrences": 3
+    "reference": "",
+    "occurrences": 2
   },
   {
     "name": "SENSORY PACKAGE 1 - Exclusive for HopToys",
     "reference": "SENSPACK1",
     "occurrences": 3
+  },
+  {
+    "name": "SENSORY PACKAGE CHRISTMAS",
+    "reference": "",
+    "occurrences": 1
   },
   {
     "name": "SENSORY PACKAGE-CHRISTMAS",
@@ -1676,7 +4801,7 @@
   },
   {
     "name": "SESNORY PACKAGE",
-    "reference": "CHRISTMAS",
+    "reference": "",
     "occurrences": 1
   },
   {
@@ -1685,14 +4810,54 @@
     "occurrences": 1
   },
   {
-    "name": "SET DE MOTRICIDAD",
-    "reference": "GRUESA",
-    "occurrences": 8
+    "name": "SET DE MOTRICIDAD FINA",
+    "reference": "",
+    "occurrences": 6
+  },
+  {
+    "name": "SET DE MOTRICIDAD GRUESA",
+    "reference": "",
+    "occurrences": 6
   },
   {
     "name": "SHORT THROW WIDE ANGLE PROJECTOR",
     "reference": "DOITPROGA",
     "occurrences": 2
+  },
+  {
+    "name": "SOFA 1'5M AMB VIBRACIÓ",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "SOFA 150 AMB VIBRO",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "SOFA 150 VIBRO",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "SOFA VIBRO-ACÚSTIC DIM.",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "SOFA VIBROACUSTIC",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "SOFA VIBROACUSTICS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "SOFÀ VIBRO-ACÚSTIC",
+    "reference": "",
+    "occurrences": 1
   },
   {
     "name": "SOFÁ BLANCO VIBRO-ACÚSTICO PARA NIÑOS DIM. 150X50X60",
@@ -1702,7 +4867,7 @@
   {
     "name": "SOFÁ PARA NIÑOS VIBRO-ACÚSTICO DIM. 100X50X60",
     "reference": "DOIT9261",
-    "occurrences": 1
+    "occurrences": 3
   },
   {
     "name": "SOFÁ VIBRO-ACÚSTICO PARA NIÑOS 100x45x50, ALTURA ASIENTO 25 CMS",
@@ -1712,16 +4877,76 @@
   {
     "name": "SOFÁ VIBRO-ACÚSTICO PARA NIÑOS DIM. 150X50X60",
     "reference": "DOIT0103",
-    "occurrences": 7
+    "occurrences": 8
   },
   {
-    "name": "SOPORTE CON RUEDAS PARA PANTALLA TÀCTIL VISIÓN 6369807",
+    "name": "SOFÁ VIBROACÚSTICO PARA NIÑOS",
     "reference": "",
     "occurrences": 1
   },
   {
-    "name": "SUBSTITUCIÓ DE LA CONSOLA DOIT ****SENSE",
-    "reference": "GARANTIA****",
+    "name": "Solucionar problemes a la sala.",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "SOPORTE CON RUEDAS PARA PANTALLA TÀCTIL VISIÓN",
+    "reference": "6369807",
+    "occurrences": 1
+  },
+  {
+    "name": "SOSTRE CIRCULARD DE FIBRES 120 CMS DE DIÀMETRE",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "SOSTRE D'ESTELS 200X100 INTERACTIU DOIT",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "SOSTRE DE FIBRES PASSIU",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "SOSTRE ESTELLS PASSIU",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "SOSTRE ESTELS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "SOSTRE ESTELS DE FIBRA ÓPTICA PASSIU",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "SOSTRE ESTELS FIBRA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "SOSTRES DE FIBRES",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "STEP STAIRS 95X60X60 CMS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "SUBSTITUCIÓ DE LA CONSOLA DOIT ****SENSE GARANTIA****",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "SUPER INTERACTIVE FIBER OPTIC CURTAIN",
+    "reference": "",
     "occurrences": 1
   },
   {
@@ -1737,7 +4962,12 @@
   {
     "name": "SUPERINTERACTIVE BUBBLE TUBE 15X180 CMS",
     "reference": "DOCB15DOIT",
-    "occurrences": 5
+    "occurrences": 3
+  },
+  {
+    "name": "SUPERINTERACTIVE BUBBLE TUBE 15X180 CMS",
+    "reference": "DOCB15DOITEN",
+    "occurrences": 2
   },
   {
     "name": "SUPERINTERACTIVE FIBER OPTIC CURTAIN",
@@ -1745,14 +4975,34 @@
     "occurrences": 9
   },
   {
-    "name": "SUSTITUCIÓN DE LA",
-    "reference": "ANTENA",
+    "name": "SUPERINTERACTIVE FIBRE OPTIC SHOWER 60X60X180",
+    "reference": "DOFO6DOIT",
     "occurrences": 1
   },
   {
-    "name": "SUSTITUCIÓN ELECTRÓNICA TUBO DE",
-    "reference": "BURBUJAS",
+    "name": "SUPORT RODES PANTALLA TACTIL",
+    "reference": "",
     "occurrences": 1
+  },
+  {
+    "name": "SUSPENSION BAG FOR VESTIBULATION",
+    "reference": "030021SP",
+    "occurrences": 1
+  },
+  {
+    "name": "SUSTITUCIÓN DE LA ANTENA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "SUSTITUCIÓN ELECTRÓNICA TUBO DE BURBUJAS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "TABLET",
+    "reference": "",
+    "occurrences": 11
   },
   {
     "name": "TABLET AIWA DE 10\" CON LA APP DOIT REMOTE CONTROL",
@@ -1762,7 +5012,7 @@
   {
     "name": "TABLET AIWA TAB DE 10\" CON LA APP DOIT REMOTE CONTROL",
     "reference": "TABADOIT",
-    "occurrences": 26
+    "occurrences": 27
   },
   {
     "name": "TABLET DE 10\" CON LA APP DOIT REMOTE CONTROL",
@@ -1775,18 +5025,48 @@
     "occurrences": 9
   },
   {
-    "name": "TABLET SAMSUNG TAB DE 10\" CON LA APP DOIT REMOTE CONTROL",
-    "reference": "TABADOIT",
-    "occurrences": 4
+    "name": "TABLET SAMSUNG",
+    "reference": "",
+    "occurrences": 6
   },
   {
-    "name": "TAPA SUPERIOR PARA COLUMNA DE BURBUJAS Diámetro 15 cm",
+    "name": "TABLET SAMSUNG 10\"",
     "reference": "",
     "occurrences": 1
   },
   {
-    "name": "TAPIZADO PARA PARED 19X179 CON VELCROS PARA",
-    "reference": "PARED",
+    "name": "TABLET SAMSUNG TAB",
+    "reference": "",
+    "occurrences": 4
+  },
+  {
+    "name": "TABLET SAMSUNG TAB A",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "TABLET SAMSUNG TAB DE 10\" CON LA APP DOIT REMOTE CONTROL",
+    "reference": "",
+    "occurrences": 3
+  },
+  {
+    "name": "TABLET SAMSUNG TAB DE 10\" CON LA APP DOIT REMOTE CONTROL",
+    "reference": "TABADOIT",
+    "occurrences": 19
+  },
+  {
+    "name": "TABLETS SAMSUNG",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "TAPA SUPERIOR PARA COLUMNA DE BURBUJAS Diámetro 15 cm.",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "TAPIZADO PARA PARED 19X179 CON VELCROS PARA PARED",
+    "reference": "",
     "occurrences": 1
   },
   {
@@ -1795,9 +5075,19 @@
     "occurrences": 1
   },
   {
+    "name": "TECHO CIRCULAR DE FIBRA ÓPTICA DE 120 CMS DE DIÁMETR",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
     "name": "TECHO CIRCULAR DE FIBRA ÓPTICA DE 120 CMS DE DIÁMETRO",
     "reference": "DOITFOS120",
-    "occurrences": 3
+    "occurrences": 13
+  },
+  {
+    "name": "TECHO DE ESTRELLAS DE FIBRA OPTICA DOIT",
+    "reference": "",
+    "occurrences": 1
   },
   {
     "name": "TECHO DE ESTRELLAS DE FIBRA OPTICA DOIT ( 6 losetas )",
@@ -1812,7 +5102,7 @@
   {
     "name": "TECHO DE ESTRELLAS DE FIBRA ÓPTICA",
     "reference": "DOFOP",
-    "occurrences": 1
+    "occurrences": 2
   },
   {
     "name": "TECHO DE ESTRELLAS DE FIBRA ÓPTICA PASIVO",
@@ -1822,7 +5112,12 @@
   {
     "name": "TECHO DE ESTRELLAS DE FIBRA ÓPTICA PASIVO 6 LOSETAS",
     "reference": "DOFO1P",
-    "occurrences": 2
+    "occurrences": 1
+  },
+  {
+    "name": "TECHO DE ESTRELLAS DE FIBRA ÓPTICA PASIVO 6 LOSETAS",
+    "reference": "DOFO2P",
+    "occurrences": 1
   },
   {
     "name": "TECHO DE FIBRA ÓPTICA",
@@ -1830,23 +5125,118 @@
     "occurrences": 1
   },
   {
-    "name": "TECLADO CON TOUCHPAD",
-    "reference": "LOGITECH",
-    "occurrences": 1
-  },
-  {
-    "name": "TIRES LED  NG",
+    "name": "TECLADO CON TOUCHPAD LOGITECH",
     "reference": "",
     "occurrences": 1
   },
   {
-    "name": "TRANSPORT I",
-    "reference": "MUNTATGE",
+    "name": "TEMPESTA",
+    "reference": "",
     "occurrences": 1
   },
   {
-    "name": "TRASLLAT SALA MULTISENSORIAL I INSTAL·LACIÓ I POSADA EN",
-    "reference": "MARXA",
+    "name": "TEMPESTA DE COLORS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "TERRA LIQUID SENSORIAL",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "TIRA LED UV DE 4,5M",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "TIRAS DE LED DE 2M (WALL WASHER) SIN ELECTRONICA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "TIRES LED DE 2M",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "TIRES LED NG",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "TRANSPORT",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "TRASLADO SALA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "TUB",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "tub",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "TUB 180 X 15",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "TUB 180X15 COLUMNA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "TUB COLUMNA AIGUA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "TUB DE RECANVI",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "TUB INTERIOR COLUMNA DE BOMBOLLES",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "TUB INTERIOR PER COLUMNA DE 15",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "TUBE",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "TUBE FOR BASE",
+    "reference": "",
+    "occurrences": 5
+  },
+  {
+    "name": "TUBE FOR BASE",
+    "reference": "DOCB150PEN-T",
+    "occurrences": 17
+  },
+  {
+    "name": "TUBE FOR BASE DOCB150PEN-T (en tenim 8 acabats)",
+    "reference": "DOCB150PEN-T",
+    "occurrences": 1
+  },
+  {
+    "name": "TUBE-",
+    "reference": "",
     "occurrences": 1
   },
   {
@@ -1857,7 +5247,7 @@
   {
     "name": "TUBO INTERIOR PARA COLUMNA CON CIRCULACIÓN DE OBJETOS",
     "reference": "DTTB150",
-    "occurrences": 4
+    "occurrences": 12
   },
   {
     "name": "TUBO INTERIOR PARA COLUMNA de 20 cms diam. CON CIRCULACIÓN DE OBJETOS",
@@ -1865,19 +5255,39 @@
     "occurrences": 1
   },
   {
-    "name": "TUBO INTERIOR PARA DIFUSOR DE",
-    "reference": "AROMATERAPIA",
+    "name": "TUBO INTERIOR PARA DIFUSOR DE AROMATERAPIA",
+    "reference": "",
     "occurrences": 1
   },
   {
-    "name": "TUNEL",
-    "reference": "INFINIT",
+    "name": "TUBS",
+    "reference": "",
     "occurrences": 1
+  },
+  {
+    "name": "TUBS 15 X 180",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "Tunel de espuma 90x90x90cms con estrellas de luz en su interior",
+    "reference": "DOFOT999",
+    "occurrences": 2
   },
   {
     "name": "TUNEL INF NG",
     "reference": "",
     "occurrences": 1
+  },
+  {
+    "name": "TUNEL INFINIT",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "TUNEL INFINITO DOIT",
+    "reference": "",
+    "occurrences": 3
   },
   {
     "name": "TV TÁCTIL 43\"",
@@ -1890,18 +5300,53 @@
     "occurrences": 1
   },
   {
+    "name": "u DOIT WALL WASHER DE 2M",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "UNITATS WALL WASHER",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
     "name": "UV LED LIGHT BAR 18X3W LED (UV)",
     "reference": "AST6030915",
     "occurrences": 2
   },
   {
+    "name": "UV light bar with 6 LED",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "VENTILADOR DOIT",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "VIBRO-ACUSTIC PLYNTH FOR WATERBED MATRESS",
+    "reference": "",
+    "occurrences": 5
+  },
+  {
     "name": "VIBRO-ACUSTIC PLYNTH FOR WATERBED MATRESS 200X100",
     "reference": "BC100",
-    "occurrences": 4
+    "occurrences": 6
   },
   {
     "name": "VIBRO-ACUSTIC PLYNTH FOR WATERBED MATRESS 200X140",
     "reference": "BC140",
+    "occurrences": 1
+  },
+  {
+    "name": "VIBRO-ACUSTIC PLYNTH WATERBED 200X 1",
+    "reference": "BC100EN",
+    "occurrences": 1
+  },
+  {
+    "name": "VIC RF Consola + Boles Irr.",
+    "reference": "",
     "occurrences": 1
   },
   {
@@ -1911,17 +5356,22 @@
   },
   {
     "name": "WALL PROTECTION",
-    "reference": "100X100X5",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "WALL WASHER 2M 2 UNITATS",
+    "reference": "",
     "occurrences": 1
   },
   {
-    "name": "WALL PROTECTION 105x50x5",
+    "name": "WALL WASHER DE 2M",
     "reference": "",
     "occurrences": 1
   },
   {
     "name": "WALLWASHER (SOLO 4MT TIRA LED CON 3M DE CABLE Y ELECTRONICA)",
-    "reference": "",
+    "reference": "4MT",
     "occurrences": 1
   },
   {
@@ -1930,9 +5380,24 @@
     "occurrences": 1
   },
   {
+    "name": "WATER ACONDITIONER FOR WATERBED",
+    "reference": "",
+    "occurrences": 2
+  },
+  {
+    "name": "WATER BED MATRESS WITH THERMOSTAT",
+    "reference": "",
+    "occurrences": 5
+  },
+  {
+    "name": "WATER BED MATRESS WITH THERMOSTAT",
+    "reference": "CA100EN",
+    "occurrences": 1
+  },
+  {
     "name": "WATER BED MATRESS WITH THERMOSTAT 200X100",
     "reference": "CA100",
-    "occurrences": 5
+    "occurrences": 7
   },
   {
     "name": "WATER MATTRESS WITH THERMOSTAT 200X140",
@@ -1940,8 +5405,28 @@
     "occurrences": 1
   },
   {
-    "name": "WIRELESS REMOTE",
-    "reference": "PLUGS",
+    "name": "WATERBED CONDITIONER",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "WIRELESS REMOTE PLUGS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "x BUTACA BOMBAY CON VIBRACIÓN ACÚSTICA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "X CARRO MULTISENSORIAL NOU AMB TEMPESTA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "x CARRO MULTISENSORIAL NOU AMB TUNEL",
+    "reference": "",
     "occurrences": 1
   },
   {
@@ -1950,28 +5435,58 @@
     "occurrences": 1
   },
   {
-    "name": "X PODI RECTANGULAR",
-    "reference": "100X50X50",
-    "occurrences": 1
+    "name": "x Enchufe controlable DOIT",
+    "reference": "",
+    "occurrences": 2
   },
   {
-    "name": "X TABLET",
-    "reference": "AIWA",
-    "occurrences": 1
-  },
-  {
-    "name": "falta material tou 3,00 BASE 100X50X50 TAPIZADA ***COLOR LILA7439C*****",
-    "reference": "DOBAS1552",
-    "occurrences": 1
-  },
-  {
-    "name": "instalar en barcelona",
+    "name": "x ENDOLLS DOIT",
     "reference": "",
     "occurrences": 1
   },
   {
-    "name": "x CARRO MULTISENSORIAL NOU AMB",
-    "reference": "TUNEL",
+    "name": "x ESPEJO ACRILICO 140 X 100",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "x ESPEJO ACRÍLICO DE ALTO IMPACTO SOBRE TABLERO DE MADERA",
+    "reference": "",
     "occurrences": 2
+  },
+  {
+    "name": "X MIRALLS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "x MIRALLS",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "X PODI RECTANGULAR",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "x RUEDA DE EFECTOS DE DIBUJOS PARA PROYECTOR OPTI",
+    "reference": "OPTIEW",
+    "occurrences": 1
+  },
+  {
+    "name": "X SONOFF",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "X TABLET AIWA",
+    "reference": "",
+    "occurrences": 1
+  },
+  {
+    "name": "Yamaha R-S202 Stereo amplifier with Bluetooth",
+    "reference": "R-S202",
+    "occurrences": 1
   }
 ]

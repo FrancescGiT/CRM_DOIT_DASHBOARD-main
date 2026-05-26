@@ -1,0 +1,365 @@
+{
+  "normalized_existing_activity_count": 934,
+  "normalized_reference_examples": [
+    {
+      "key": "DOIT-3276",
+      "old_reference": "",
+      "new_reference": "DOITLTF",
+      "old_name": "LOSETA TÁCTIL TEXTURAS FINAS DOITLTF",
+      "new_name": "LOSETA TÁCTIL TEXTURAS FINAS"
+    },
+    {
+      "key": "DOIT-3277",
+      "old_reference": "",
+      "new_reference": "DOITLTG",
+      "old_name": "LOSETA TÁCTIL DE TEXTURAS GRUESAS DOITLTG",
+      "new_name": "LOSETA TÁCTIL DE TEXTURAS GRUESAS"
+    },
+    {
+      "key": "DOIT-3282",
+      "old_reference": "CM72207",
+      "new_reference": "CM72207",
+      "old_name": "4 BOLAS LUMINOSAS CON DIFERENTES TEXTURAS",
+      "new_name": "BOLAS LUMINOSAS CON DIFERENTES TEXTURAS"
+    },
+    {
+      "key": "DOIT-3526",
+      "old_reference": "",
+      "new_reference": "CDLITE",
+      "old_name": "DOIT CONSOLE LITE CDLITE",
+      "new_name": "DOIT CONSOLE LITE"
+    },
+    {
+      "key": "DOIT-3528",
+      "old_reference": "",
+      "new_reference": "TABADOIT",
+      "old_name": "TABLET AIWA TAB DE 10\" CON LA APP DOIT REMOTE CONTROL TABADOIT",
+      "new_name": "TABLET AIWA TAB DE 10\" CON LA APP DOIT REMOTE CONTROL"
+    },
+    {
+      "key": "DOIT-3533",
+      "old_reference": "",
+      "new_reference": "DOFFDOIT",
+      "old_name": "FUENTE DE LUZ PARA CONECTAR ELEMENTOS DE FIBRA ÓPTICA DOIT DOFFDOIT",
+      "new_name": "FUENTE DE LUZ PARA CONECTAR ELEMENTOS DE FIBRA ÓPTICA DOIT"
+    },
+    {
+      "key": "DOIT-1745",
+      "old_reference": "",
+      "new_reference": "DOITAIR",
+      "old_name": "PROYECTOR INTERACTIVO DOIT AIR DOITAIR",
+      "new_name": "PROYECTOR INTERACTIVO DOIT AIR"
+    },
+    {
+      "key": "DOIT-789",
+      "old_reference": "15X180",
+      "new_reference": "",
+      "old_name": "COLUMNA DE BURBUJAS DOIT",
+      "new_name": "COLUMNA DE BURBUJAS DOIT"
+    },
+    {
+      "key": "DOIT-837",
+      "old_reference": "100X50X50",
+      "new_reference": "",
+      "old_name": "FALTA MATERIAL TOU BASE",
+      "new_name": "FALTA MATERIAL TOU BASE"
+    },
+    {
+      "key": "DOIT-2626",
+      "old_reference": "",
+      "new_reference": "JBLONEPRO",
+      "old_name": "ALTAVOCES JBL CONTROL ONE PRO JBLONEPRO",
+      "new_name": "ALTAVOCES JBL CONTROL ONE PRO"
+    },
+    {
+      "key": "DOIT-2633",
+      "old_reference": "",
+      "new_reference": "DOFFDOIT",
+      "old_name": "FUENTE DE LUZ PARA CONECTAR ELEMENTOS DE FIBRA ÓPTICA DOIT DOFFDOIT",
+      "new_name": "FUENTE DE LUZ PARA CONECTAR ELEMENTOS DE FIBRA ÓPTICA DOIT"
+    },
+    {
+      "key": "DOIT-717",
+      "old_reference": "15X180",
+      "new_reference": "",
+      "old_name": "COLUMNA DE BURBUJAS INTERACTIVA DOIT",
+      "new_name": "COLUMNA DE BURBUJAS INTERACTIVA DOIT"
+    },
+    {
+      "key": "DOIT-1304",
+      "old_reference": "100X50X50",
+      "new_reference": "",
+      "old_name": "BASE",
+      "new_name": "BASE"
+    },
+    {
+      "key": "DOIT-1305",
+      "old_reference": "100X2M",
+      "new_reference": "",
+      "old_name": "FEIX FIBRES",
+      "new_name": "FEIX FIBRES"
+    },
+    {
+      "key": "DOIT-1307",
+      "old_reference": "200X100",
+      "new_reference": "",
+      "old_name": "LLIT AIGUA",
+      "new_name": "LLIT AIGUA"
+    },
+    {
+      "key": "DOIT-1308",
+      "old_reference": "200X100",
+      "new_reference": "",
+      "old_name": "BASE VIBROACUSTICA LLIT AIGUA",
+      "new_name": "BASE VIBROACUSTICA LLIT AIGUA"
+    },
+    {
+      "key": "DOIT-1310",
+      "old_reference": "140X100",
+      "new_reference": "",
+      "old_name": "MIRALLS",
+      "new_name": "MIRALLS"
+    },
+    {
+      "key": "DOIT-1312",
+      "old_reference": "18X3W",
+      "new_reference": "",
+      "old_name": "LUMINARIA LED",
+      "new_name": "LUMINARIA LED"
+    },
+    {
+      "key": "DOIT-1318",
+      "old_reference": "",
+      "new_reference": "DOCONS1",
+      "old_name": "CONSOLA DOIT",
+      "new_name": "DOIT CONSOLE SISTEMA DE CONTROL DE ENTORNO Y ACTIVIDADES DOIT"
+    },
+    {
+      "key": "DOIT-691",
+      "old_reference": "140X100",
+      "new_reference": "",
+      "old_name": "MIRALLS",
+      "new_name": "MIRALLS"
+    },
+    {
+      "key": "DOIT-693",
+      "old_reference": "60X30",
+      "new_reference": "",
+      "old_name": "ESCALA D'ESPUMA",
+      "new_name": "ESCALA D'ESPUMA"
+    },
+    {
+      "key": "DOIT-400",
+      "old_reference": "100X100X50",
+      "new_reference": "",
+      "old_name": "BASE",
+      "new_name": "BASE"
+    },
+    {
+      "key": "DOIT-413",
+      "old_reference": "200X200X60",
+      "new_reference": "",
+      "old_name": "PISCINA BOLAS DOIT",
+      "new_name": "PISCINA BOLAS DOIT"
+    },
+    {
+      "key": "DOIT-132",
+      "old_reference": "",
+      "new_reference": "DOCONS1",
+      "old_name": "CONSOLA DOIT",
+      "new_name": "DOIT CONSOLE SISTEMA DE CONTROL DE ENTORNO Y ACTIVIDADES DOIT"
+    },
+    {
+      "key": "DOIT-137",
+      "old_reference": "100X100X50",
+      "new_reference": "",
+      "old_name": "BASE",
+      "new_name": "BASE"
+    },
+    {
+      "key": "DOIT-144",
+      "old_reference": "",
+      "new_reference": "DOCONS1",
+      "old_name": "CONSOLA DOIT",
+      "new_name": "DOIT CONSOLE SISTEMA DE CONTROL DE ENTORNO Y ACTIVIDADES DOIT"
+    },
+    {
+      "key": "DOIT-145",
+      "old_reference": "140X100",
+      "new_reference": "",
+      "old_name": "MIRALL",
+      "new_name": "MIRALL"
+    },
+    {
+      "key": "DOIT-146",
+      "old_reference": "140X50",
+      "new_reference": "",
+      "old_name": "MIRALL",
+      "new_name": "MIRALL"
+    },
+    {
+      "key": "DOIT-148",
+      "old_reference": "100X50X50",
+      "new_reference": "",
+      "old_name": "BASE",
+      "new_name": "BASE"
+    },
+    {
+      "key": "DOIT-207",
+      "old_reference": "25X50X100",
+      "new_reference": "",
+      "old_name": "Enviar material tou PODI",
+      "new_name": "Enviar material tou PODI"
+    },
+    {
+      "key": "DOIT-130",
+      "old_reference": "200X100",
+      "new_reference": "",
+      "old_name": "SOSTRES DE FIBRES",
+      "new_name": "SOSTRES DE FIBRES"
+    },
+    {
+      "key": "DOIT-2436",
+      "old_reference": "",
+      "new_reference": "DOITPROGA",
+      "old_name": "PROYECTOR GRAN ANGULAR DE CORTA DISTANCIA DOITPROGA",
+      "new_name": "PROYECTOR GRAN ANGULAR DE CORTA DISTANCIA"
+    },
+    {
+      "key": "DOIT-2442",
+      "old_reference": "",
+      "new_reference": "JBLONEPRO",
+      "old_name": "ALTAVOCES JBL CONTROL ONE PRO JBLONEPRO",
+      "new_name": "ALTAVOCES JBL CONTROL ONE PRO"
+    },
+    {
+      "key": "DOIT-3473",
+      "old_reference": "",
+      "new_reference": "CATERM",
+      "old_name": "RESISTENCIA CON TERMOSTATO PARA CAMA DE AGUA CATERM",
+      "new_name": "RESISTENCIA CON TERMOSTATO PARA CAMA DE AGUA"
+    },
+    {
+      "key": "DOIT-124",
+      "old_reference": "",
+      "new_reference": "DOCONS1",
+      "old_name": "CONSOLA DOIT",
+      "new_name": "DOIT CONSOLE SISTEMA DE CONTROL DE ENTORNO Y ACTIVIDADES DOIT"
+    },
+    {
+      "key": "DOIT-4148",
+      "old_reference": "",
+      "new_reference": "TABADOIT",
+      "old_name": "TABLET AIWA TAB DE 10\" CON LA APP DOIT REMOTE CONTROL TABADOIT",
+      "new_name": "TABLET AIWA TAB DE 10\" CON LA APP DOIT REMOTE CONTROL"
+    },
+    {
+      "key": "DOIT-4149",
+      "old_reference": "",
+      "new_reference": "DOITPROGA",
+      "old_name": "PROYECTOR GRAN ANGULAR DE CORTA DISTANCIA DOITPROGA",
+      "new_name": "PROYECTOR GRAN ANGULAR DE CORTA DISTANCIA"
+    },
+    {
+      "key": "DOIT-4150",
+      "old_reference": "",
+      "new_reference": "JBLONEPRO",
+      "old_name": "ALTAVOCES JBL CONTROL ONE PRO JBLONEPRO",
+      "new_name": "ALTAVOCES JBL CONTROL ONE PRO"
+    },
+    {
+      "key": "DOIT-4152",
+      "old_reference": "",
+      "new_reference": "CABEN",
+      "old_name": "ARMARIO PARA EQUIPOS DE AUDIO Y MULTIMEDIA CABEN",
+      "new_name": "ARMARIO PARA EQUIPOS DE AUDIO Y MULTIMEDIA"
+    },
+    {
+      "key": "DOIT-4159",
+      "old_reference": "",
+      "new_reference": "DOFFDOIT",
+      "old_name": "FUENTE DE LUZ PARA CONECTAR ELEMENTOS DE FIBRA ÓPTICA DOIT DOFFDOIT",
+      "new_name": "FUENTE DE LUZ PARA CONECTAR ELEMENTOS DE FIBRA ÓPTICA DOIT"
+    },
+    {
+      "key": "DOIT-4168",
+      "old_reference": "",
+      "new_reference": "FLPAS",
+      "old_name": "FUENTE DE LUZ PASIVA PARA ELEMENTOS DE FIBRA ÓPTICA FLPAS",
+      "new_name": "FUENTE DE LUZ PASIVA PARA ELEMENTOS DE FIBRA ÓPTICA"
+    },
+    {
+      "key": "DOIT-4748",
+      "old_reference": "",
+      "new_reference": "DOFFDOIT",
+      "old_name": "FUENTE DE LUZ PARA CONECTAR ELEMENTOS DE FIBRA ÓPTICA DOIT DOFFDOIT",
+      "new_name": "FUENTE DE LUZ PARA CONECTAR ELEMENTOS DE FIBRA ÓPTICA DOIT"
+    },
+    {
+      "key": "DOIT-4753",
+      "old_reference": "",
+      "new_reference": "DOFPDOIT",
+      "old_name": "FOCO DE COLORES DOIT INTERACTIVO DOFPDOIT",
+      "new_name": "FOCO DE COLORES DOIT INTERACTIVO"
+    },
+    {
+      "key": "DOIT-4754",
+      "old_reference": "ANIMALES",
+      "new_reference": "",
+      "old_name": "PACK TARJETAS PARA DOIT PLAY",
+      "new_name": "PACK TARJETAS PARA DOIT PLAY"
+    },
+    {
+      "key": "DOIT-3035",
+      "old_reference": "",
+      "new_reference": "TABADOIT",
+      "old_name": "TABLET AIWA TAB DE 10\" CON LA APP DOIT REMOTE CONTROL TABADOIT",
+      "new_name": "TABLET AIWA TAB DE 10\" CON LA APP DOIT REMOTE CONTROL"
+    },
+    {
+      "key": "DOIT-3036",
+      "old_reference": "",
+      "new_reference": "JBLONEPRO",
+      "old_name": "ALTAVOCES JBL CONTROL ONE PRO JBLONEPRO",
+      "new_name": "ALTAVOCES JBL CONTROL ONE PRO"
+    },
+    {
+      "key": "DOIT-3038",
+      "old_reference": "",
+      "new_reference": "DOPROIM",
+      "old_name": "PROYECTOR DE IMÁGENES BÁSICO PARA SALA MULTISENSORIAL DOPROIM",
+      "new_name": "PROYECTOR DE IMÁGENES BÁSICO PARA SALA MULTISENSORIAL"
+    },
+    {
+      "key": "DOIT-3044",
+      "old_reference": "",
+      "new_reference": "DOFFDOIT",
+      "old_name": "FUENTE DE LUZ PARA CONECTAR ELEMENTOS DE FIBRA ÓPTICA DOIT DOFFDOIT",
+      "new_name": "FUENTE DE LUZ PARA CONECTAR ELEMENTOS DE FIBRA ÓPTICA DOIT"
+    },
+    {
+      "key": "DOIT-456",
+      "old_reference": "",
+      "new_reference": "DOCONS1",
+      "old_name": "CONSOLA DOIT",
+      "new_name": "DOIT CONSOLE SISTEMA DE CONTROL DE ENTORNO Y ACTIVIDADES DOIT"
+    },
+    {
+      "key": "DOIT-462",
+      "old_reference": "140X100",
+      "new_reference": "",
+      "old_name": "MIRALLS",
+      "new_name": "MIRALLS"
+    }
+  ],
+  "missing_rows_found": 46,
+  "attached_to_existing_epic": [
+    "DOIT-5049"
+  ],
+  "synthetic_epics": [
+    "SIN-EPIC-DOIT-3366",
+    "SIN-EPIC-DOIT-3838"
+  ],
+  "product_catalog_entries": 1098,
+  "products_json_entries": 1098
+}
