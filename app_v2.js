@@ -365,7 +365,7 @@ function refreshAll() {
 function updateFilterBanner() {
   const f = filterContext();
   const banner = document.getElementById('activeFiltersBanner');
-  const isFiltered = f.q || f.type || f.status || f.year || f.center;
+  const isFiltered = f.q || f.type || f.status || f.year || f.center || f.startDate || f.endDate;
   if (isFiltered) {
     banner.style.display = 'flex';
     const resetBtn = document.getElementById('showAllBtn');
@@ -475,6 +475,23 @@ function updateFilterIndicator() {
       <span class="filter-pill-close" onclick="clearFilterDropdown('centerFilter')">&times;</span>
     </div>`);
   }
+  // 10. Start Date Filter
+  const startDateF = document.getElementById('startDateFilter')?.value;
+  if (startDateF) {
+    activePills.push(`<div class="filter-pill">
+      <span>📅 Desde: ${esc(startDateF)}</span>
+      <span class="filter-pill-close" onclick="clearFilterDropdown('startDateFilter')">&times;</span>
+    </div>`);
+  }
+
+  // 11. End Date Filter
+  const endDateF = document.getElementById('endDateFilter')?.value;
+  if (endDateF) {
+    activePills.push(`<div class="filter-pill">
+      <span>📅 Hasta: ${esc(endDateF)}</span>
+      <span class="filter-pill-close" onclick="clearFilterDropdown('endDateFilter')">&times;</span>
+    </div>`);
+  }
   
   if (activePills.length > 0) {
     container.innerHTML = activePills.join('');
@@ -537,7 +554,17 @@ function fillFiltersOnce() {
   const centerSel = document.getElementById('centerFilter'); const old = centerSel.value; centerSel.innerHTML = '<option value="">Todos</option>'; const centers = (data.centers || []).slice().sort((a, b) => a.name.localeCompare(b.name, 'es')); for (const c of centers) { const o = document.createElement('option'); o.value = c.id; o.textContent = (idx.clientsById[c.client_id]?.name || c.client_name || '') + ' · ' + c.name; centerSel.appendChild(o); } centerSel.value = old;
 }
 
-function filterContext() { return { q: norm(document.getElementById('searchInput').value), type: document.getElementById('typeFilter').value, status: document.getElementById('statusFilter').value, year: document.getElementById('yearFilter').value, center: document.getElementById('centerFilter').value }; }
+function filterContext() {
+  return {
+    q: norm(document.getElementById('searchInput').value),
+    type: document.getElementById('typeFilter').value,
+    status: document.getElementById('statusFilter').value,
+    year: document.getElementById('yearFilter').value,
+    center: document.getElementById('centerFilter').value,
+    startDate: document.getElementById('startDateFilter')?.value || '',
+    endDate: document.getElementById('endDateFilter')?.value || ''
+  };
+}
 
 function highlight(text, q) {
   text = String(text ?? '');
@@ -557,6 +584,12 @@ function epicMatches(e, f) {
   if (f.type && client.type !== f.type) return false;
   if (f.status && e.status_group !== f.status) return false;
   if (f.year && String(e.created_year) !== String(f.year)) return false;
+  
+  const eDateStr = e.created_date || e.created || '';
+  const eDatePart = eDateStr.split(' ')[0];
+  if (f.startDate && eDatePart && eDatePart < f.startDate) return false;
+  if (f.endDate && eDatePart && eDatePart > f.endDate) return false;
+
   if (f.q) {
     const acts = idx.activitiesByEpic[e.key] || [];
     const text = [client.name, client.type, center.name, e.key, e.com, e.summary, e.status, e.created, e.description, ...(acts.slice(0, 80).map(a => [a.key, a.summary, a.product_name, a.reference, a.category].join(' ')))].join(' ');
@@ -624,7 +657,7 @@ function clientMatches(c, f) {
   if (f.type && c.type !== f.type) return false;
   if (selectedClientId && c.id !== selectedClientId) return true;
   const epics = (data.epics || []).filter(e => e.client_id === c.id);
-  if (f.status || f.year || f.center || f.q) {
+  if (f.status || f.year || f.center || f.q || f.startDate || f.endDate) {
     return epics.some(e => epicMatches(e, f));
   }
   return true;
@@ -1810,11 +1843,14 @@ function clearLocal() {
 
 function bindEvents() {
   // Search and Filters inputs
-  ['typeFilter', 'statusFilter', 'yearFilter', 'centerFilter'].forEach(id => {
-    document.getElementById(id).addEventListener('input', () => {
-      selectedEpicKey = '';
-      refreshAll();
-    });
+  ['typeFilter', 'statusFilter', 'yearFilter', 'centerFilter', 'startDateFilter', 'endDateFilter'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) {
+      el.addEventListener('input', () => {
+        selectedEpicKey = '';
+        refreshAll();
+      });
+    }
   });
 
   document.getElementById('searchInput').addEventListener('input', () => {
@@ -1835,6 +1871,8 @@ function bindEvents() {
     document.getElementById('statusFilter').value = '';
     document.getElementById('yearFilter').value = '';
     document.getElementById('centerFilter').value = '';
+    const startEl = document.getElementById('startDateFilter'); if (startEl) startEl.value = '';
+    const endEl = document.getElementById('endDateFilter'); if (endEl) endEl.value = '';
     selectedClientId = ''; selectedCenterId = ''; selectedEpicKey = ''; selectedProductId = '';
     refreshAll();
   };
