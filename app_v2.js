@@ -1,3 +1,4 @@
+//
 'use strict';
 const STORAGE_KEY = 'doit_crm_jira_2022_2026_patches_v3';
 let seedData = null;
