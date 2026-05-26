@@ -155,7 +155,7 @@ function buildIndexes() {
 
   idx.activitiesByEpic = {};
 
-  // Initialize product sales from our new products database
+  // Initialize product sales from our new products database grouped by reference
   idx.productSales = {};
   let productsDb = [];
   const prodEl = document.getElementById('products-data');
@@ -166,14 +166,77 @@ function buildIndexes() {
       console.error('Error parsing products-data', e);
     }
   }
+
+  // Gather known references and mapping from productsDb
+  const nameToRef = new Map();
+  const refToNames = new Map(); // reference -> Array of { name, occurrences }
+  const knownRefs = new Set();
+  
   for (const p of productsDb) {
-    if (p.name) {
-      idx.productSales[p.name] = {
-        name: p.name,
-        reference: p.reference || '',
-        years: {},
-        details: []
-      };
+    const name = (p.name || '').trim();
+    const ref = (p.reference || '').trim().toUpperCase();
+    if (ref) {
+      knownRefs.add(ref);
+      if (name) {
+        nameToRef.set(name.toLowerCase(), ref);
+        if (!refToNames.has(ref)) refToNames.set(ref, []);
+        refToNames.get(ref).push({ name, occurrences: p.occurrences || 0 });
+      }
+    }
+  }
+
+  // Helper to detect reference code from name, summary or explicit reference
+  function detectReference(name, summary, explicitRef) {
+    let r = (explicitRef || '').trim().toUpperCase();
+    if (r) return r;
+    
+    const n = (name || '').trim();
+    const s = (summary || '').trim();
+    
+    if (n && nameToRef.has(n.toLowerCase())) return nameToRef.get(n.toLowerCase());
+    if (s && nameToRef.has(s.toLowerCase())) return nameToRef.get(s.toLowerCase());
+    
+    const combined = (n + ' ' + s).toUpperCase();
+    const tokens = combined.split(/[^A-Z0-9-]/);
+    for (const t of tokens) {
+      if (t && knownRefs.has(t)) {
+        return t;
+      }
+    }
+    
+    const sortedRefs = Array.from(knownRefs).sort((a, b) => b.length - a.length);
+    for (const kr of sortedRefs) {
+      if (kr.length >= 3 && combined.includes(kr)) {
+        return kr;
+      }
+    }
+    return '';
+  }
+
+  // Pre-initialize idx.productSales for references, picking the name with most occurrences
+  for (const [ref, nameList] of refToNames.entries()) {
+    nameList.sort((a, b) => b.occurrences - a.occurrences || b.name.length - a.name.length);
+    idx.productSales[ref] = {
+      reference: ref,
+      name: nameList[0].name,
+      years: {},
+      details: []
+    };
+  }
+
+  // Also pre-initialize for products in productsDb that have no reference
+  for (const p of productsDb) {
+    const name = (p.name || '').trim();
+    const ref = (p.reference || '').trim().toUpperCase();
+    if (!ref && name) {
+      if (!idx.productSales[name]) {
+        idx.productSales[name] = {
+          reference: '',
+          name: name,
+          years: {},
+          details: []
+        };
+      }
     }
   }
 
@@ -183,27 +246,40 @@ function buildIndexes() {
     idx.activitiesByEpic[k].push(a);
 
     // Index product stats
-    if (a.line_kind === 'Producto' && a.product_name) {
-      const prodName = a.product_name.trim();
-      if (!idx.productSales[prodName]) {
-        idx.productSales[prodName] = { name: prodName, reference: a.reference || '', years: {}, details: [] };
-      } else if (!idx.productSales[prodName].reference && a.reference) {
-        idx.productSales[prodName].reference = a.reference;
+    if (a.line_kind === 'Producto' && (a.product_name || a.reference)) {
+      const prodName = (a.product_name || '').trim();
+      const refCode = detectReference(prodName, a.summary, a.reference);
+      const ref = refCode || prodName;
+      
+      if (!ref) continue;
+      
+      if (!idx.productSales[ref]) {
+        idx.productSales[ref] = {
+          reference: refCode || '',
+          name: prodName,
+          years: {},
+          details: []
+        };
+      } else {
+        if (!idx.productSales[ref].name && prodName) {
+          idx.productSales[ref].name = prodName;
+        }
       }
 
       const epic = idx.epicsByKey[k] || {};
       const year = epic.created_year || a.created_year || (a.created_date || a.created ? new Date(a.created_date || a.created).getFullYear() : 'Desconocido');
       const qty = parseInt(a.quantity || 1) || 1;
 
-      idx.productSales[prodName].years[year] = (idx.productSales[prodName].years[year] || 0) + qty;
-      idx.productSales[prodName].details.push({
+      idx.productSales[ref].years[year] = (idx.productSales[ref].years[year] || 0) + qty;
+      idx.productSales[ref].details.push({
         epic_key: k,
         com: epic.com || '',
         client_id: a.client_id,
         center_id: a.center_id,
         quantity: qty,
         date: a.created_date || a.created || '',
-        status: a.status || ''
+        status: a.status || '',
+        line_description: prodName
       });
 
       // Update client stats
@@ -1233,11 +1309,17 @@ function renderAllEpics() {
 }
 
 function renderProductAnalytics() {
-  // Fill suggestions list
+  // Fill suggestions list with both reference and name
   const suggestions = document.getElementById('productSuggestions');
-  suggestions.innerHTML = Object.keys(idx.productSales)
+  const sugKeys = [];
+  for (const key in idx.productSales) {
+    const p = idx.productSales[key];
+    if (p.reference) sugKeys.push(p.reference);
+    if (p.name) sugKeys.push(p.name);
+  }
+  suggestions.innerHTML = [...new Set(sugKeys)]
     .sort()
-    .map(p => `<option value="${esc(p)}"></option>`)
+    .map(val => `<option value="${esc(val)}"></option>`)
     .join('');
 
   // Fetch product search
@@ -1245,7 +1327,7 @@ function renderProductAnalytics() {
   const allProds = Object.values(idx.productSales)
     .map(p => {
       const total = Object.values(p.years).reduce((a, b) => a + b, 0);
-      return { name: p.name, reference: p.reference || '', total };
+      return { name: p.name, reference: p.reference || '', key: p.reference || p.name, total };
     })
     .filter(p => !searchQ || norm(p.name).includes(searchQ) || norm(p.reference).includes(searchQ))
     .sort((a, b) => b.total - a.total); // default sorted by units sold descending
@@ -1261,7 +1343,7 @@ function renderProductAnalytics() {
           </tr>
         </thead>
         <tbody>
-          ${allProds.map(p => `<tr class="clickable product-row-btn ${selectedProductId === p.name ? 'selected-row' : ''}" data-prod="${esc(p.name)}">
+          ${allProds.map(p => `<tr class="clickable product-row-btn ${selectedProductId === p.key ? 'selected-row' : ''}" data-prod="${esc(p.key)}">
             <td><b>${highlight(p.name, searchQ)}</b></td>
             <td class="mono">${highlight(p.reference || 'Sin ref', searchQ)}</td>
             <td><span class="tag tag-blue">${p.total} uds.</span></td>
@@ -1278,7 +1360,7 @@ function renderProductAnalytics() {
   });
 
   // Render sales detail panels
-  const currentProd = selectedProductId || (allProds[0] ? allProds[0].name : '');
+  const currentProd = selectedProductId || (allProds[0] ? allProds[0].key : '');
   const salesData = idx.productSales[currentProd];
   const chartPanel = document.getElementById('productYearChart');
   const detailPanel = document.getElementById('productDetailPanel');
@@ -1291,7 +1373,8 @@ function renderProductAnalytics() {
     return;
   }
 
-  detailTitle.textContent = `Detalle: ${esc(currentProd)}`;
+  const titleText = salesData.reference ? `${salesData.name} (${salesData.reference})` : salesData.name;
+  detailTitle.textContent = `Detalle: ${esc(titleText)}`;
 
   // Render annual chart
   const years = Object.keys(salesData.years).sort();
@@ -1335,6 +1418,9 @@ function renderProductAnalytics() {
     } else if (productDetailSortKey === 'quantity') {
       valA = a.quantity || 0;
       valB = b.quantity || 0;
+    } else if (productDetailSortKey === 'description') {
+      valA = a.line_description || '';
+      valB = b.line_description || '';
     } else if (productDetailSortKey === 'date') {
       valA = a.date || '';
       valB = b.date || '';
@@ -1361,6 +1447,7 @@ function renderProductAnalytics() {
       <td class="mono">${esc(d.epic_key)}</td>
       <td class="mono">${esc(d.com || 'SIN COM')}</td>
       <td>${d.quantity}</td>
+      <td>${esc(d.line_description || d.product_name || '')}</td>
       <td>${esc(d.date)}</td>
       <td>${esc(d.status)}</td>
     </tr>`;
@@ -1381,19 +1468,23 @@ function renderProductAnalytics() {
             <th class="${prodSortClass('epic')}" data-sort="epic">Pedido / DOIT</th>
             <th class="${prodSortClass('com')}" data-sort="com">COM / Comanda</th>
             <th class="${prodSortClass('quantity')}" data-sort="quantity">Cantidad</th>
+            <th class="${prodSortClass('description')}" data-sort="description">Descripción en Pedido</th>
             <th class="${prodSortClass('date')}" data-sort="date">Fecha</th>
             <th class="${prodSortClass('status')}" data-sort="status">Estado</th>
           </tr>
         </thead>
         <tbody>
-          ${rows || '<tr><td colspan="7" class="empty">Sin registros.</td></tr>'}
+          ${rows || '<tr><td colspan="8" class="empty">Sin registros.</td></tr>'}
         </tbody>
       </table>
     </div>`;
 }
 
-function showProductYearDetailModal(prodName, year) {
-  const details = idx.productSales[prodName].details.filter(d => {
+function showProductYearDetailModal(prodRef, year) {
+  const salesData = idx.productSales[prodRef];
+  if (!salesData) return;
+
+  const details = salesData.details.filter(d => {
     const epic = idx.epicsByKey[d.epic_key] || {};
     const eYear = epic.created_year || (d.date ? new Date(d.date).getFullYear() : '');
     return String(eYear) === String(year);
@@ -1408,16 +1499,18 @@ function showProductYearDetailModal(prodName, year) {
       <td class="mono">${esc(d.epic_key)}</td>
       <td class="mono">${esc(d.com || 'SIN COM')}</td>
       <td>${d.quantity}</td>
+      <td>${esc(d.line_description || d.product_name || '')}</td>
       <td>${esc(d.date)}</td>
       <td>${esc(d.status)}</td>
     </tr>`;
   }).join('');
 
+  const titleText = salesData.reference ? `${salesData.name} (${salesData.reference})` : salesData.name;
   const modalHtml = `
     <div class="modal-overlay active" id="yearDetailModalOverlay">
       <div class="modal-container">
         <div class="modal-header">
-          <h3>Detalle de ventas: ${esc(prodName)} (${esc(year)})</h3>
+          <h3>Detalle de ventas: ${esc(titleText)} (${esc(year)})</h3>
           <button class="modal-close-btn" id="closeYearModalBtn">×</button>
         </div>
         <div class="modal-body">
@@ -1430,12 +1523,13 @@ function showProductYearDetailModal(prodName, year) {
                   <th>Pedido / DOIT</th>
                   <th>COM</th>
                   <th>Cant.</th>
+                  <th>Descripción en Pedido</th>
                   <th>Fecha</th>
                   <th>Estado</th>
                 </tr>
               </thead>
               <tbody>
-                ${rows || '<tr><td colspan="7" class="empty">Sin registros para este año.</td></tr>'}
+                ${rows || '<tr><td colspan="8" class="empty">Sin registros para este año.</td></tr>'}
               </tbody>
             </table>
           </div>
@@ -1706,14 +1800,16 @@ function initSearchSuggestions() {
     }
 
     // Match products
-    const matchedProducts = new Set();
-    for (const pName in idx.productSales) {
-      if (norm(pName).includes(q)) {
-        matchedProducts.add(pName);
+    const matchedProducts = [];
+    for (const key in idx.productSales) {
+      const p = idx.productSales[key];
+      if (norm(p.name).includes(q) || (p.reference && norm(p.reference).includes(q))) {
+        const display = p.reference ? `${p.name} (${p.reference})` : p.name;
+        matchedProducts.push({ key, display });
       }
     }
-    for (const pName of matchedProducts) {
-      suggestions.push({ type: 'product', id: pName, text: pName, cat: 'Producto', icon: '📦' });
+    for (const p of matchedProducts) {
+      suggestions.push({ type: 'product', id: p.key, text: p.display, cat: 'Producto', icon: '📦' });
     }
 
     const sliced = suggestions.slice(0, 8);
@@ -1792,9 +1888,10 @@ function renderSearchResults() {
   });
 
   const products = [];
-  for (const pName in idx.productSales) {
-    if (norm(pName).includes(f.q)) {
-      products.push(idx.productSales[pName]);
+  for (const key in idx.productSales) {
+    const p = idx.productSales[key];
+    if (norm(p.name).includes(f.q) || (p.reference && norm(p.reference).includes(f.q))) {
+      products.push(p);
     }
   }
 
@@ -1884,13 +1981,16 @@ function renderSearchResults() {
             </tr>
           </thead>
           <tbody>
-            ${products.map(p => `
+            ${products.map(p => {
+      const key = p.reference || p.name;
+      return `
               <tr>
                 <td><b>${highlight(p.name, f.q)}</b></td>
                 <td class="mono">${highlight(p.reference || '--', f.q)}</td>
-                <td><button class="btn btn-sm btn-primary go-product-btn" data-name="${esc(p.name)}">Ver Estadísticas</button></td>
+                <td><button class="btn btn-sm btn-primary go-product-btn" data-key="${esc(key)}">Ver Estadísticas</button></td>
               </tr>
-            `).join('')}
+            `;
+    }).join('')}
           </tbody>
         </table>
       </div>
@@ -1924,9 +2024,9 @@ function renderSearchResults() {
 
   panel.querySelectorAll('.go-product-btn').forEach(btn => {
     btn.onclick = () => {
-      selectedProductId = btn.dataset.name;
+      selectedProductId = btn.dataset.key;
       const pSearch = document.getElementById('productSearchInput');
-      if (pSearch) pSearch.value = btn.dataset.name;
+      if (pSearch) pSearch.value = btn.dataset.key;
       document.getElementById('searchInput').value = '';
       switchPage('products');
       refreshAll();
